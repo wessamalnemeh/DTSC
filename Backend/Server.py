@@ -17,7 +17,7 @@ class MyEncoder(json.JSONEncoder):
         return json.JSONEncoder.default(self, obj)
 
 @route('/api/dieases')
-def hello():
+def getDieasesByClusters():
     diease_name=request.query.diease
     area=request.query.area
     #Query data from Database
