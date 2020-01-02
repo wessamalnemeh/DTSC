@@ -1,4 +1,4 @@
 # Dieases Time Space Clustering
 
-This project was a university project for SpatialDB subject
+This project is a university project for SpatialDB subject
 
