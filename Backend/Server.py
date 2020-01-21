@@ -1,4 +1,6 @@
 import decimal
+from operator import attrgetter
+
 from bottle import route, run ,request, response, template
 import numpy as np
 from DBConnector import DBConnector, Disease
@@ -11,10 +13,16 @@ class MyEncoder(json.JSONEncoder):
         if isinstance(obj, np.ndarray):
             return obj.tolist()
         elif isinstance(obj, Disease):
-            return {'Date':obj.date,'PLZ':obj.PLZ}
+            return {'Date':obj.date,'PLZ':obj.PLZ,'Lat':obj.lat,'Lng':obj.lng}
         elif isinstance(obj, decimal.Decimal):
             return float(obj)
         return json.JSONEncoder.default(self, obj)
+
+
+@route('/api/build')
+def buildLocationsTable():
+    connector = DBConnector()
+    connector.insertLatLangDB()
 
 @route('/api/dieases')
 def getDieasesByClusters():
@@ -32,7 +40,12 @@ def getDieasesByClusters():
         idx_list=np.where(ms.labels_==i)
         cluster={}
         cluster["cluster_id"]=i
+        cluster["cluster_low_space"]=min(np.array(dieases_list)[idx_list], key=attrgetter('PLZ')).PLZ
+        cluster["cluster_high_space"] = max(np.array(dieases_list)[idx_list], key=attrgetter('PLZ')).PLZ
+        cluster["cluster_low_time"] = min(np.array(dieases_list)[idx_list], key=attrgetter('date')).date
+        cluster["cluster_high_time"] = max(np.array(dieases_list)[idx_list], key=attrgetter('date')).date
         cluster["elements"] =np.array(dieases_list)[idx_list]
+        obj= min(np.array(dieases_list)[idx_list], key=attrgetter('PLZ'))
         response.append(cluster)
     return json.dumps(response,cls=MyEncoder)
 

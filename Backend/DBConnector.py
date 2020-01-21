@@ -1,16 +1,24 @@
 import mysql.connector as mysql
-
-
+from geopy.geocoders import OpenMapQuest
+import time
 class Disease:
-    def __init__(self,date,PLZ):
+    def __init__(self,date,PLZ,lat,lng):
         self.PLZ=PLZ
         self.date=date
+        self.lat=lat
+        self.lng = lng
 
     def getPLZ(self):
         return  self.PLZ
 
     def getDate(self):
         return  self.date
+
+    def getLat(self):
+        return  self.lat
+
+    def getLng(self):
+        return  self.lng
 
 class DBConnector:
 
@@ -24,10 +32,38 @@ class DBConnector:
 
     def getEventsByDiaeses(self,diease_name,area):
         cursor =self.db.cursor()
-        cursor.execute("SELECT  * FROM tier_db.tier_view where tier_view.diagnose like '%"+diease_name+"%' and ort = '"+area+"' group by TierNr")
+        cursor.execute("SELECT  * FROM tier_db.tier_view2 where tier_view2.diagnose like '%"+diease_name+"%' and ort = '"+area+"' and lat is not null group by TierNr")
         records = cursor.fetchall()
         diseases_list=[]
         for row in records:
-            disease=Disease(row[5],row[8])
+            disease=Disease(row[5],row[8],row[10],row[11])
             diseases_list.append(disease)
         return diseases_list
+
+
+    def insertLatLangDB(self):
+
+        cursor = self.db.cursor()
+        cursor.execute("SELECT  * FROM tier_db.tier_view where tier_view.diagnose like '%niereninsuffizienz%' and ort = 'Berlin' group by TierNr")
+        records = cursor.fetchall()
+        geolocator = OpenMapQuest(api_key="XFxbqwthDaTnze70Q77fQ0XwatHUyW4p")
+        f = open("locations.sql", "w")
+        for row in records:
+            if(row[7]!=None and row[8]!=None and row[9]!=None):
+                address=row[7]+", "+row[8]+" "+row[9].split("(")[0]
+                location = geolocator.geocode(address,timeout=None)
+                if(location is not None):
+                    print(row[1],(location.latitude, location.longitude))
+                    query="INSERT INTO `tier_db`.`gplocations`(`adrsId`,`lat`,`lng`) VALUES("+str(row[1])+","+str(location.latitude)+","+str(location.longitude)+");\n"
+                    f.write(query)
+                else:
+                    error="#Failed:"+str(row[1])+"\n"
+                    f.write(error)
+
+        f.close()
+
+
+
+        print("Bye")
+
+
