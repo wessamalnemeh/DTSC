@@ -1,0 +1,395 @@
+Nr,KdNr,TierNr,TierArt,Rasse,Datum,Diagnose,strasse,PLZ,ort,Lat,Lng
+76,258,43,Katze,"EKH (Europäisch Kurzhaar)",885250800.000000,"VD: Niereninsuffizienz","Huberweg 20 g",13599,Berlin,52.54966030,13.23257840
+3890,10626,11616,Hund,"Cocker Spaniel",919378800.000000,Niereninsuffizienz,"Reginhardstr. 59",13409,Berlin,52.56243950,13.37318080
+11251,5581,5530,Hund,Collie-Mischling,930088800.000000,"Ko KCS, Niereninsuffizienz","Berliner Str. 51",10713,Berlin,52.48662390,13.31705040
+11405,13730,15579,Hund,"Deutscher Schäferhund",930175200.000000,"Niereninsuffizienz, Durchfall","Höppner Str. 71",12101,Berlin,52.47231240,13.37576655
+12174,13718,15564,Hund,Dobermann,929916000.000000,"chronische Niereninsuffizienz","Sansibarstr. 62",13351,Berlin,52.55476670,13.34336560
+14226,14979,17130,Schildkröte,Landschildkröte,933631200.000000,Niereninsuffizienz,"Kurfürstendamm 16",10707,Berlin,52.50426320,13.33216560
+83154,14979,42561,Schildkröte,Landschildkröte,1022796000.000000,"Osteodystrophia fibrosa, Niereninsuffizienz","Kurfürstendamm 16",10707,Berlin,52.50426320,13.33216560
+16660,15697,18094,Hund,"Cocker Spaniel",936568800.000000,"chron. Niereninsuffizienz, Anämie aufgr. ineffektiver Erythropoese","Wiclefstr. 59",10551,Berlin,52.53022270,13.33680510
+18088,16435,19010,Katze,"EKH (Europäisch Kurzhaar)",938296800.000000,"Niereninsuffizienz, Niereninsuffizienz, chronisch","Nehringstr. 27",14059,Berlin,52.51604940,13.29427140
+18984,2551,2388,Kaninchen,Zwergkaninchen,939333600.000000,Niereninsuffizienz,"Wilsnacker Str. 42",10559,Berlin,52.53115300,13.35007990
+19551,16933,19649,Katze,"EKH (Europäisch Kurzhaar)",940111200.000000,Niereninsuffizienz,"Ahornweg 5",10245,Berlin,52.45163080,13.59689990
+22152,9564,10090,Hund,Papillon,943225200.000000,"Niereninsuffizienz ungeklärter Genese","Spilstr. 3",14195,Berlin,52.46692930,13.30590500
+22304,10456,20533,Katze,"EKH (Europäisch Kurzhaar)",943311600.000000,"Niereninsuffizienz, Vd Lungentumor","Königsweg 41",14163,Berlin,52.42894080,13.23964152
+22807,17901,20904,Katze,"EKH (Europäisch Kurzhaar)",944002800.000000,"Niereninsuffizienz, chronisch","Scheelestr. 119",12209,Berlin,52.41149320,13.32427430
+24747,18477,21630,Katze,Perserkatze,946508400.000000,"Polydipsie, Niereninsuffizienz","Amfortasweg 26",12167,Berlin,52.44677800,13.32415100
+25314,18670,21881,Katze,"EKH (Europäisch Kurzhaar)",947286000.000000,Niereninsuffizienz,"Fehrbelliner Str.23",10119,Berlin,52.53358660,13.40360120
+25352,18706,21920,Katze,"EKH (Europäisch Kurzhaar)",947372400.000000,Niereninsuffizienz,"Handjerystr. 3",12159,Berlin,52.47652560,13.33234730
+26834,1445,22480,Katze,"EKH (Europäisch Kurzhaar)",949273200.000000,"Niereninsuffizienz, chronisch","Schwedter Str. 13",10119,Berlin,52.53386290,13.40950240
+141141,1445,59925,Katze,Perser-Mischling,1085349600.000000,"Niereninsuffizienz, chronisch, FIV","Schwedter Str. 13",10119,Berlin,52.53386290,13.40950240
+27031,19193,22554,Katze,Perserkatze,949532400.000000,Niereninsuffizienz,"Karl-Marx-Str. 222",12055,Berlin,52.47020510,13.44126030
+27745,19433,22848,Katze,"EKH (Europäisch Kurzhaar)",950396400.000000,"Niereninsuffizienz, chronisch","Kirschnerweg 2",12353,Berlin,52.42824700,13.45216560
+29124,10747,23269,Katze,"EKH (Europäisch Kurzhaar)",952297200.000000,"Niereninsuffizienz, chronisch","Hasenheide 11",10967,Berlin,52.48731040,13.42197030
+29883,13215,14916,Katze,Perser-Mischling,953247600.000000,"Hyperthyreose, Niereninsuffizienz, chronisch","Gneiststr. 14",14195,Berlin,52.48979070,13.27169350
+30650,12648,14177,Hund,DSH-Mischling,954367200.000000,"Niereninsuffizienz, chronisch","Osloerstr. 114",13359,Berlin,52.55542970,13.38606100
+34392,21609,25509,Katze,Kartäuser,959119200.000000,"Verd. auf Niereninsuffizienz","Solmsstr. 21",10961,Berlin,52.49087920,13.39223110
+38539,22993,27259,Hund,Rottweiler-Mischling,964476000.000000,Niereninsuffizienz,"Rohrlegerweg 7",12351,Berlin,52.42656330,13.44343260
+39912,23417,27794,Katze,"EKH (Europäisch Kurzhaar)",966117600.000000,"Niereninsuffizienz, chronisch, Lungenödem","Hektorstr. 16",10711,Berlin,52.49971250,13.29761310
+40796,23588,27994,Katze,"EKH (Europäisch Kurzhaar)",967068000.000000,Niereninsuffizienz,"Havensteinstr. 55",12249,Berlin,52.42970610,13.34125330
+42684,24189,28771,Hund,Bracke,969487200.000000,"Niereninsuffizienz, chronisch","Wippraer Weg 28",12277,Berlin,52.40421160,13.36007000
+42979,24196,28783,Katze,"EKH (Europäisch Kurzhaar)",969919200.000000,"Niereninsuffizienz, chronisch","Rugestrasse 2",12165,Berlin,52.45280360,13.32108380
+43795,24524,29203,Katze,Perserkatze,971042400.000000,"zystenfrei (PKD), Niereninsuffizienz, chronisch","Wolziger Zeile 29",12307,Berlin,52.38166360,13.39420740
+43822,24454,29113,Katze,"EKH (Europäisch Kurzhaar)",971301600.000000,"Leberpunktion, Niereninsuffizienz, chronisch","Eichstädter Weg 17",13509,Berlin,52.58704285,13.29790060
+44700,24802,29558,Hund,"West Highland-Mischling",972338400.000000,Niereninsuffizienz,"Winzerstr. 27",13593,Berlin,52.51184650,13.17946040
+45489,25024,29815,Hund,"Border Collie-Mischling",973292400.000000,"Niereninsuffizienz, chronisch// LWS-Syndrom","Gotenweg 8",13595,Berlin,52.50640770,13.18108490
+45673,9295,29899,Katze,Siamkatze-Mischling,973551600.000000,"chronische Niereninsuffizienz","Horstweg 6",14059,Berlin,52.51187460,13.29459700
+46087,2594,29886,Katze,Perser-Mischling,974156400.000000,"HKMP  Niereninsuffizienz","Mariannenstr. 40",12209,Berlin,52.41984010,13.33612433
+46810,25374,30287,Katze,"EKH (Europäisch Kurzhaar)",975020400.000000,Niereninsuffizienz,"Alexandrinenstr. 42",10969,Berlin,52.50543730,13.40688780
+46852,25398,30317,Katze,"EKH (Europäisch Kurzhaar)",975106800.000000,"Niereninsuffizienz, UV  im Maulschleimhaut, Anämie","Neue Kreisstr. 12a",14109,Berlin,52.39736545,13.13746985
+47223,17313,20118,Katze,"EKH (Europäisch Kurzhaar)",975625200.000000,"chron. Niereninsuffizienz","Syrische Str. 9",13349,Berlin,52.55516970,13.35807100
+48740,20616,24291,Katze,"EKH (Europäisch Kurzhaar)",977871600.000000,"Niereninsuffizienz, chronisch","Dorfstr. 71",13597,Berlin,52.52155290,13.21128220
+48926,25981,31094,Katze,"EKH (Europäisch Kurzhaar)",978130800.000000,"Niereninsuffizienz,Anämie","Hähnelstr. 2",12159,Berlin,52.47552510,13.33620790
+49834,10981,12082,Katze,"EKH (Europäisch Kurzhaar)",979513200.000000,"Niereninsuffizienz, chronisch","Müggelstr. 28",10247,Berlin,52.51275820,13.47161930
+50020,26275,31466,Kaninchen,Zwergkaninchen,979772400.000000,Niereninsuffizienz,"Falkenseer Chaussee 252",13583,Berlin,52.54739230,13.18179650
+50192,26334,31545,Katze,"EKH (Europäisch Kurzhaar)",979945200.000000,Niereninsuffizienz.,"Neuendorferstraße 33",13585,Berlin,52.54823680,13.21022060
+50213,26350,31566,Katze,Perserkatze,980031600.000000,Niereninsuffizienz,"Am Waldhaus 27a",14129,Berlin,52.42087175,13.20739746
+50326,24790,29543,Katze,"EKH (Europäisch Kurzhaar)",980204400.000000,"Herzinsuffizienz/ Niereninsuffizienz/ Oxalatsteine","Ostpreußendamm 129b",12207,Berlin,52.41993485,13.31010340
+50794,26493,31763,Hund,"Dt. Jagdterrier",980895600.000000,"akute Niereninsuffizienz","Schulzendorferstr. 346",13467,Berlin,52.60941590,13.28706810
+51600,2322,32029,Katze,Perser-Mischling,982018800.000000,"Niereninsuffizienz, chronisch","Gethsemanestr. 6",10437,Berlin,52.54814750,13.41777460
+70899,2322,2133,Hund,"Golden Retriever-Mischling",1006729200.000000,"chronische Niereninsuffizienz","Gethsemanestr. 6",10437,Berlin,52.54814750,13.41777460
+52067,4507,32174,Katze,Perserkatze,982623600.000000,"PKD positiv,  Niereninsuffizienz, chronisch","Seegefelder Weg 261",13591,Berlin,52.54194570,13.16205850
+52839,14335,32420,Katze,"EKH (Europäisch Kurzhaar)",983746800.000000,"Niereninsuffizienz, chronisch","Jahnstr. 59",12347,Berlin,52.46006880,13.43895610
+53237,26950,32378,Katze,"EKH (Europäisch Kurzhaar)",984178800.000000,"Niereninsuffizienz, chronisch","Roonstr. 19",12203,Berlin,52.44630095,13.30854444
+54894,27490,33130,Katze,Kartäuser,986421600.000000,Niereninsuffizienz,"Wacholderweg 10",14052,Berlin,52.52276500,13.24606110
+55306,27595,33261,Hund,Beagle,987026400.000000,"Niereninsuffizienz, chronisch","Seehofstr. 41",14167,Berlin,52.42898160,13.26730882
+55968,27791,33511,Katze,"EKH (Europäisch Kurzhaar)",988063200.000000,"Niereninsuffizienz, chronisch","Oberlandstr. 1",12099,Berlin,52.46531940,13.42117060
+57972,28385,34283,Katze,Perserkatze,990655200.000000,Niereninsuffizienz,"Bingerstr 87",14197,Berlin,52.47795470,13.30993120
+58653,28623,34576,Katze,"Maine Coon",991605600.000000,"chron. Niereninsuffizienz","Ebereschenstr. 36",14050,Berlin,52.46932195,13.68214365
+59480,28894,34889,Katze,"EKH (Europäisch Kurzhaar)",992556000.000000,Niereninsuffizienz,"Demminerstr. 3",13355,Berlin,52.54114620,13.39450230
+60736,28993,35009,Hund,Zw.-Schnauzer,994197600.000000,Niereninsuffizienz,"Pillnitzer Weg 4",13593,Berlin,52.52228080,13.15650910
+61624,29705,35851,Katze,"EKH (Europäisch Kurzhaar)",995320800.000000,Niereninsuffizienz,"Wittelsbacher Str. 2",10707,Berlin,52.49410660,13.31675840
+61669,8284,35860,Katze,Perserkatze,995320800.000000,"PD/PU, Niereninsuffizienz","Boothstr. 3",12207,Berlin,52.43393945,13.32754685
+61900,6951,7093,Katze,Kartäuser,995493600.000000,"Niereninsuffizienz, chronisch","Matterhornstraße 29",14129,Berlin,52.43728120,13.22113225
+61952,2293,2101,Kaninchen,Widder,995580000.000000,"Niereninsuffizienz, Blasenstein","Lissabonallee 21",14163,Berlin,52.42709725,13.22607075
+62003,25587,35943,Katze,"EKH (Europäisch Kurzhaar)",995580000.000000,"Niereninsuffizienz, chronisch","Im Schönower Park 1 E",14167,Berlin,52.42850460,13.26308290
+63109,30147,36377,Hund,"Kerry Blue",997048800.000000,Niereninsuffizienz,"In den Neuen Gärten",12247,Berlin,52.43606160,13.35595210
+63778,28928,34932,Katze,Ragdoll,997740000.000000,"Niereninsuffizienz, chronisch","Selgenauer Weg 24",12355,Berlin,52.41788600,13.50564150
+64262,30250,36489,Katze,"EKH (Europäisch Kurzhaar)",998258400.000000,"Struvitsteine, Niereninsuffizienz nach Harnstau","Lehmusstr. 10",12524,Berlin,52.40611890,13.54262820
+65018,30673,37023,Katze,"EKH (Europäisch Kurzhaar)",999122400.000000,Niereninsuffizienz,"Kommandantenstr. 23",12205,Berlin,52.43432215,13.29250218
+65046,27368,32974,Katze,Perserkatze,999122400.000000,"GFR-Bestimmung, Niereninsuffizienz","Ganghoferstr. 2",12163,Berlin,52.46367740,13.31021860
+65173,30724,37077,Katze,"EKH (Europäisch Kurzhaar)",999381600.000000,"Nierensteine, Niereninsuffizienz","Solquellstr 27a",13467,Berlin,52.62162590,13.31487070
+65221,5090,6712,Katze,Birma(heilige),999468000.000000,"Katzenschnupfen, chronische Niereninsuffizienz","Orionstr. 10",12435,Berlin,52.48090360,13.47932490
+65271,30270,36509,Hund,Mischling(klein),999468000.000000,Niereninsuffizienz,"Thorwaldsenstr. 21",12157,Berlin,52.46341900,13.34161800
+65321,21901,25884,Schildkröte,Vierzehenlandschildkröte,999554400.000000,"Verdacht auf Niereninsuffizienz","Leydenallee 97",12165,Berlin,52.45413280,13.32221780
+65392,30766,37140,Katze,Colourpoint,999640800.000000,Niereninsuffizienz,"Falkenseer Chaussee 212",13589,Berlin,52.55006910,13.16876670
+65458,30785,37161,Katze,"EKH (Europäisch Kurzhaar)",999640800.000000,"chronische Niereninsuffizienz, terminale Urämie","Paulsborner Str. 73",10709,Berlin,52.49299180,13.29775480
+65745,12230,13640,Hund,Pudel,1000072800.000000,"chronische Niereninsuffizienz","Lerchenstraße 16",14089,Berlin,52.47165030,13.11990430
+65999,708,37265,Katze,"EKH (Europäisch Kurzhaar)",1000332000.000000,"hochgradige Abmagerung, Niereninsuffizienz, Herzinsuffizienz","Türkenstr. 23",13349,Berlin,52.55396970,13.34799230
+66125,30970,37384,Katze,"EKH (Europäisch Kurzhaar)",1000504800.000000,"chronische Niereninsuffizienz","Medebacher Weg",13507,Berlin,52.58549300,13.28122590
+66658,30819,37199,Hund,"Pitbull Terrier",1001282400.000000,"Niereninsuffizienz, chronisch","Sollmannweg 4",12353,Berlin,52.42191300,13.46333650
+67541,24319,36386,Katze,"EKH (Europäisch Kurzhaar)",1002492000.000000,"Diabetes m., Niereninsuffizienz","Breitensteinweg 21 A",14165,Berlin,52.41084010,13.25903920
+67738,31428,37939,Katze,Perserkatze,1002664800.000000,"Mammatumor, Niereninsuffizienz","Nürnberger Str. 23",12309,Berlin,52.38564275,13.41411745
+68039,27762,38054,Katze,"EKH (Europäisch Kurzhaar)",1003096800.000000,Niereninsuffizienz,"Waldstraße 10 b",10551,Berlin,52.52848410,13.33096350
+70070,30027,36225,Katze,Burma,1005606000.000000,Niereninsuffizienz,"Kilstetter Str. 51",14167,Berlin,52.43436790,13.27137440
+70484,26361,31578,Katze,"EKH (Europäisch Kurzhaar)",1006124400.000000,Niereninsuffizienz,"Keplerstr. 1",10589,Berlin,52.52716855,13.30413944
+70782,31467,37986,Katze,"EKH (Europäisch Kurzhaar)",1006470000.000000,"Katzenschnupfen, chronische Niereninsuffizienz","Emser Str. 49",12051,Berlin,52.46818570,13.42735570
+71348,32375,39136,Katze,"EKH (Europäisch Kurzhaar)",1007334000.000000,"Niereninsuffizienz, Infektion","Schopenhauerstr. 61",14129,Berlin,52.43199105,13.20854765
+72424,32655,39493,Hund,Dobermann,1008630000.000000,Niereninsuffizienz,"Turmstr. 64",10551,Berlin,52.52712550,13.32983050
+72771,32703,39558,Katze,"EKH (Europäisch Kurzhaar)",1009148400.000000,"FeLV positiv!, Va Niereninsuffizienz","Angerburger Allee 25",14055,Berlin,52.50859240,13.22414930
+73403,32487,39830,Katze,"EKH (Europäisch Kurzhaar)",1010271600.000000,"Va Niereninsuffizienz/Tumor","An den Hubertshäusern 23 B",14129,Berlin,52.42925820,13.21908310
+73467,12722,39638,Katze,"EKH (Europäisch Kurzhaar)",1010358000.000000,"PKD, Niereninsuffizienz","Raschdorffstr. 101/103",13409,Berlin,52.56787890,13.36210950
+73489,16582,4009,Hund,"Yorkshire Terrier",1010358000.000000,"chron. Niereninsuffizienz","Kirchnerpfad 1",13627,Berlin,52.53727480,13.29766890
+74822,33194,40187,Katze,Perser-Mischling,1012172400.000000,"Aszites, Thoraxerguß - Tumorverdacht, Anämie
+ Niereninsuffizienz, PKD","Spandauer Str. 46",13581,Berlin,52.53593250,13.15758030
+74959,33263,40281,Kaninchen,Zwergkaninchen,1012258800.000000,"Harnröhrenstein, Niereninsuffizienz","Brettnacherstr. 231",14167,Berlin,52.43488260,13.27637260
+76248,33560,40691,Katze,"EKH (Europäisch Kurzhaar)",1013986800.000000,"Niereninsuffizienz, chronisch","Lilienstr. 8",12203,Berlin,52.45021540,13.30745360
+77199,33766,40960,Katze,"EKH (Europäisch Kurzhaar)",1015282800.000000,"Niereninsuffizienz, chronisch","Kaiserdamm 39",14057,Berlin,52.50975020,13.27459510
+77787,33894,41129,Katze,Perser-Mischling,1015974000.000000,"Lebertumor, , Niereninsuffizienz, chronisch","Nieplitzsteig 6",14089,Berlin,52.45225500,13.12060810
+78496,34068,41357,Katze,"EKH (Europäisch Kurzhaar)",1017010800.000000,Niereninsuffizienz,"Alt-Marienfelde 20",12277,Berlin,52.41213555,13.36948167
+78511,24846,40536,Katze,"EKH (Europäisch Kurzhaar)",1017010800.000000,"Zystitis, Struvit, chronische Niereninsuffizienz","Am Eichenquast 13",12353,Berlin,52.42314500,13.44789860
+78546,4320,4208,Katze,Perser-Mischling,1017097200.000000,"Niereninsuffizienz, chronisch","Britzer Damm 88",12347,Berlin,52.45488680,13.43738800
+78762,31516,38053,Hund,Mischling(klein),1017270000.000000,Niereninsuffizienz,"Seydelstr. 36",10117,Berlin,52.51103680,13.40267660
+79100,34110,41414,Katze,Siamkatze,1017871200.000000,"Dehydratation, Anämie, Erbrechen, Va. chron. Niereninsuffizienz","Brunsbütteler Damm 339",13591,Berlin,52.53218070,13.14500230
+79215,34282,41622,Katze,"EKH (Europäisch Kurzhaar)",1017957600.000000,"Niereninsuffizienz, chronisch","Ferdinandstr. 22",12209,Berlin,52.42551870,13.33025611
+80405,34563,41981,Hund,Pudel,1019512800.000000,Niereninsuffizienz,"Turinerstr. 32",13347,Berlin,52.55046590,13.35740430
+80543,34596,42022,Katze,"EKH (Europäisch Kurzhaar)",1019685600.000000,"Niereninsuffizienz, chronisch","Behaimstr. 10",10585,Berlin,52.51671140,13.30513940
+80625,1159,1599,Kaninchen,Zwergkaninchen,1019772000.000000,Niereninsuffizienz,"Kiefholzstr. 176",12437,Berlin,52.46680070,13.48499240
+81128,34661,42107,Kaninchen,Widder,1020376800.000000,Niereninsuffizienz,"Greulichstr. 24",12277,Berlin,52.42071500,13.37129528
+82228,35056,42627,Katze,"EKH (Europäisch Kurzhaar)",1021759200.000000,"Niereninsuffizienz, chronisch","Temmeweg 35",14089,Berlin,52.44846570,13.13103590
+83312,35376,43043,Hund,"Berner Sennenhund",1023055200.000000,"Chronische Niereninsuffizienz","Kienitzer Str. 118",12049,Berlin,52.47560480,13.42157830
+83888,35413,43097,Hund,Dalmatiner,1023746400.000000,Niereninsuffizienz,"Kurfürstenstr. 124",10785,Berlin,52.50243320,13.35035130
+84923,31934,38591,Hund,"Yorkshire Terrier",1024869600.000000,"Niereninsuffizienz, Herzinsuffizienz, blutiger Durchfall","Schulzendorfer Str. 94 a",13467,Berlin,52.60941590,13.28706810
+86069,35580,43312,Katze,"EKH (Europäisch Kurzhaar)",1026079200.000000,"Niereninsuffizienz, chronisch","Niebuhrstr. 67",10629,Berlin,52.50436570,13.31225370
+86075,3504,21994,Katze,Perser-Mischling,1026079200.000000,"Niereninsuffizienz, chronisch, PKD","Undinestr. 58",12203,Berlin,52.44408790,13.31874266
+86515,36172,44088,Hund,Riesenschnauzer,1026511200.000000,"Va. chronische Niereninsuffizienz","Wolfensteindamm 2",12165,Berlin,52.45374430,13.31870230
+86564,36199,44122,Kaninchen,Zwergkaninchen,1026597600.000000,Niereninsuffizienz,"Loschmidtstr. 1",10587,Berlin,52.51558760,13.31342880
+88619,36730,44765,Hund,"Yorkshire Terrier-Mischling",1028671200.000000,Niereninsuffizienz,"Hauptstr. 7",10827,Berlin,52.48947110,13.35904820
+89706,7846,8124,Hund,Bearded-Collie,1029880800.000000,"Bronchitis, eitrig;  Anämie, Niereninsuffizienz, chronisch,","Ruhlebener Str. 4",13597,Berlin,52.52866910,13.20835910
+90365,37173,45325,Katze,"EKH (Europäisch Kurzhaar)",1030485600.000000,Niereninsuffizienz,"Klemkestr. 48",13409,Berlin,52.57424090,13.36550110
+91050,37303,45498,Katze,"EKH (Europäisch Kurzhaar)",1031263200.000000,"VD: IHA, , Niereninsuffizienz, chronisch","Mariannenstr. 33",10999,Berlin,52.49731905,13.42123395
+91226,37174,45611,Katze,"EKH (Europäisch Kurzhaar)",1031522400.000000,"Niereninsuffizienz, chronisch, Azotämie, Anämie","Schildower Str 35a",13467,Berlin,52.62148500,13.31774070
+91776,37504,45764,Stinktier,Streifenskunk,1032127200.000000,"Nephromegalie, Niereninsuffizienz
+ Verdacht auf Leptospirose","Trollblumenweg 4",12357,Berlin,52.44035190,13.47928720
+92319,37653,45960,Katze,"EKH (Europäisch Kurzhaar)",1032732000.000000,"Niereninsuffizienz, Azotämie","Walter-Franck-Zeile 9",12353,Berlin,52.42204160,13.46879580
+92384,37313,45507,Hund,"Welsh Terrier",1032818400.000000,"VD: Babesiose, , Niereninsuffizienz, chronisch","Attilastr. 78",12247,Berlin,52.44559180,13.35664880
+92396,37670,45977,Katze,"Russisch Blau",1032818400.000000,"Niereninsuffizienz, Azotämie, Ikterus","Fasanenstr. 69",10719,Berlin,52.50111180,13.32743190
+92511,37641,45946,Hund,Mischling(klein),1032904800.000000,"Pankreatitis, Diabetes mellitus, Hodentumor, Niereninsuffizienz","Falkstr. 24",12053,Berlin,52.47713550,13.42949330
+93112,19004,22293,Katze,"EKH (Europäisch Kurzhaar)",1033682400.000000,"Niereninsuffizienz, chronisch","Bundesallee 186",10717,Berlin,52.48898740,13.33137380
+93401,36908,46269,Hund,"Amercian Staffordshire",1034028000.000000,"multizentrisches Lymphom, Niereninsuffizienz","Orankestr. 98",13053,Berlin,52.54413745,13.49111454
+94578,34999,42553,Katze,Perser-Mischling,1035324000.000000,"Niereninsuffizienz, chronisch","Sesselmannweg 11",10709,Berlin,52.48991780,13.29898750
+94884,35755,43547,Hund,Kh.-Teckel,1035759600.000000,"chron. Niereninsuffizienz","Offenbacher Str. 1",14197,Berlin,52.47529410,13.32355900
+95657,12516,14019,Hund,"Sibirischer Husky",1036623600.000000,"Niereninsuffizienz,","Matterhornstr. 18",14163,Berlin,52.43765910,13.22717490
+95866,38442,46927,Katze,"EKH (Europäisch Kurzhaar)",1036969200.000000,"chronische Niereninsuffizienz","Goltzstr. 28",12307,Berlin,52.38348260,13.40159770
+96745,38616,47160,Katze,Siamkatze,1037919600.000000,"chron. Niereninsuffizienz","Paulsbornerstr. 91",10709,Berlin,52.49773250,13.30599750
+96990,38664,47221,Katze,"EKH (Europäisch Kurzhaar)",1038265200.000000,"Niereninsuffizienz, chronisch","Zwiestädter Str. 3",12055,Berlin,52.47370220,13.44774840
+97066,8232,8564,Katze,"EKH (Europäisch Kurzhaar)",1038351600.000000,"Niereninsuffizienz, chronisch, nichtregenerative Anämie)","Finnländische Str. 13",10439,Berlin,52.55348270,13.40083160
+98495,34998,42554,Katze,"EKH (Europäisch Kurzhaar)",1040166000.000000,"Azotämie,, Niereninsuffizienz, chronisch","Invalidenstr. 55 B",10537,Berlin,52.52580650,13.36770310
+98862,39002,47669,Katze,"EKH (Europäisch Kurzhaar)",1040684400.000000,"Niereninsuffizienz, chronisch","Ungarnstr. 97a",13349,Berlin,52.55826110,13.36367960
+99961,10509,11466,Katze,"EKH (Europäisch Kurzhaar)",1042066800.000000,"chronische Niereninsuffizienz; Nierenversagen","Barstr. 24a",10713,Berlin,52.48251960,13.31332180
+100080,33669,40839,Katze,"EKH (Europäisch Kurzhaar)",1042239600.000000,"Diabetes mellitus, Niereninsuffizienz","Clausewitzstr. 7",10629,Berlin,52.50118550,13.30956340
+100599,39456,48268,Hund,"Deutscher Schäferhund",1042930800.000000,"Niereninsuffizienz, chronisch","Salmbacher Str. 67",12349,Berlin,52.41647470,13.41549160
+100674,16541,19157,Hund,Zw.-Pudel,1043017200.000000,"Niereninsuffizienz, chronisch","Flurweg 68",12357,Berlin,52.42961060,13.48097600
+101405,39626,48485,Katze,"EKH (Europäisch Kurzhaar)",1043794800.000000,"Niereninsuffizienz, chronisch","Kurfürstenstr. 37a",12249,Berlin,52.42553750,13.33535460
+101868,39749,48640,Katze,"EKH (Europäisch Kurzhaar)",1044313200.000000,Niereninsuffizienz,"Paster-Behrens-Str. 86",12359,Berlin,52.44462300,13.44384480
+102774,36561,48930,Katze,Karthäuser-Mischling,1045436400.000000,Niereninsuffizienz,"Berlepschstr. 4",14165,Berlin,52.42985465,13.25650800
+102888,39849,48776,Katze,"EKH (Europäisch Kurzhaar)",1045522800.000000,"Niereninsuffizienz, chronisch","Lindenstr. 112",10969,Berlin,52.50033380,13.39433220
+103378,40007,49011,Katze,Burma,1046127600.000000,"Niereninsuffizienz, chronisch","Ahlener Weg 33",12207,Berlin,52.40846695,13.30477475
+103503,40091,49115,Katze,"EKH (Europäisch Kurzhaar)",1046300400.000000,Niereninsuffizienz,"Scharnweberstr. 46",10247,Berlin,52.51258590,13.46639250
+104475,39380,48171,Katze,"EKH (Europäisch Kurzhaar)",1047423600.000000,"Niereninsuffizienz, Katzenschnupfen","Horstweg 6",14059,Berlin,52.51187460,13.29459700
+106383,7196,7363,Katze,Siamkatze,1049580000.000000,"Vomitus, Niereninsuffizienz","Birkbusch Str. 60 A",12167,Berlin,52.44510190,13.33049140
+106789,33355,50015,Katze,"EKH (Europäisch Kurzhaar)",1050012000.000000,"Niereninsuffizienz, chronisch","Eilertstr. 23a",14165,Berlin,52.41952060,13.25092040
+107290,40817,50137,Katze,"EKH (Europäisch Kurzhaar)",1050530400.000000,"Urämie, , Niereninsuffizienz, chronisch, nichtregenerative Anämie","Friedrichsruher Str. 22a",12169,Berlin,52.45959380,13.34411100
+107418,40853,50177,Katze,"EKH (Europäisch Kurzhaar)",1050703200.000000,"va.chron. Niereninsuffizienz","Baseler Str. 156",12205,Berlin,52.42656905,13.29420717
+107628,40893,50233,Katze,"EKH (Europäisch Kurzhaar)",1050962400.000000,"Herzinsuffizienz, hypertensive Retinopathie, Niereninsuffizienz","Uhlandstraße 185",10623,Berlin,52.50427460,13.32576460
+107713,8506,8864,Hund,DSH-Mischling,1051048800.000000,"Niereninsuffizienz, chronisch, Leishmaniose","Unter den Eichen 55",12203,Berlin,52.44695385,13.29549343
+108038,41028,50397,Katze,Perser-Mischling,1051480800.000000,"Niereninsuffizienz, chronisch","Prenzlauer Berg 8",10405,Berlin,52.52870430,13.41884870
+109705,40828,50152,Katze,"EKH (Europäisch Kurzhaar)",1053295200.000000,"chron. Niereninsuffizienz","Weißenstadter Ring 4 A",13581,Berlin,52.53203150,13.16062120
+110242,41489,51008,Katze,"EKH (Europäisch Kurzhaar)",1053727200.000000,Niereninsuffizienz,"Bayernring 26b",12101,Berlin,52.48276750,13.37501203
+110255,41496,51021,Hund,"Airedale Terrier",1053813600.000000,"Niereninsuffizienz, Prostatahyperplasie, UV inguinal, Verdacht auf Hodentumor, Anämie, Diarrhoe","Bartningallee 11",10557,Berlin,52.51949950,13.34611940
+110647,41598,51155,Hund,"West Highland White Terrier",1054159200.000000,Niereninsuffizienz,"Dovestr. 3b",10587,Berlin,52.52063550,13.31853536
+111404,4242,5604,Katze,Siamkatze,1055023200.000000,Niereninsuffizienz,"Hertastr. 1 A",14169,Berlin,52.44201880,13.26361480
+112850,42183,51923,Katze,"EKH (Europäisch Kurzhaar)",1056405600.000000,"Niereninsuffizienz, chronisch","Kohlrauschstr. 15",10587,Berlin,52.51698520,13.31901310
+113570,42393,52193,Katze,"EKH (Europäisch Kurzhaar)",1057183200.000000,"chronische Niereninsuffizienz","Kameradenweg 7",12249,Berlin,52.43435860,13.34716840
+113676,38963,47615,Hund,Foxterrier-Mischling,1057183200.000000,Niereninsuffizienz,"Colbestr. 31",10247,Berlin,52.51180730,13.46354350
+113923,42414,52230,Hund,"Alascan Malamute",1057528800.000000,Niereninsuffizienz,"Wiesenstrasse 38",13357,Berlin,52.39557200,13.58886510
+116598,43143,53184,Hund,Pekingese,1060034400.000000,"chron. Niereninsuffizienz Endstadium","Konrad Wolf Str. 124",13055,Berlin,52.54561520,13.49571240
+117543,43381,53488,Katze,"EKH (Europäisch Kurzhaar)",1060898400.000000,"Niereninsuffizienz, Dyspnoe","Leydenallee 76 A",12167,Berlin,52.45258500,13.32635590
+117726,9567,10098,Hund,Neufundländer,1061157600.000000,"chronische Niereninsuffizienz","Gesslerstr. 5",10824,Berlin,52.48610060,13.36745190
+118132,35212,42856,Hund,Malteser,1061503200.000000,Niereninsuffizienz,"Bozenerstr. 4",10825,Berlin,52.48745620,13.33791940
+118839,43674,53858,Katze,"EKH (Europäisch Kurzhaar)",1062194400.000000,Niereninsuffizienz,"Müllerstr. 94",13349,Berlin,52.55998360,13.33468310
+119340,17281,20080,Hund,Weimaraner,1062712800.000000,Niereninsuffizienz,"Franzensbaderstr. 37",14193,Berlin,52.48038710,13.28515570
+119399,43735,53928,Hund,Rottweiler,1062712800.000000,"Niereninsuffizienz, CNI","Laubenheimer Str.34",14197,Berlin,52.47025800,13.31389460
+121257,5195,5140,Katze,"EKH (Europäisch Kurzhaar)",1064786400.000000,"Zustand nach Pyometra-OP, Niereninsuffizienz, asymmetrische Septumhypertrophie","Waltraudstr. 32 A",14169,Berlin,52.45111790,13.26254550
+121299,44174,54518,Hund,"Deutscher Schäferhund",1064786400.000000,"Niereninsuffizienz, chronisch, Glomerulopathie","Bismarkstr. 19",10625,Berlin,34.31473910,-78.22252370
+122755,44492,54927,Katze,"EKH (Europäisch Kurzhaar)",1066255200.000000,"Niereninsuffizienz
+ Cystitis","Marschner Str. 24",12203,Berlin,52.44526860,13.31673739
+123509,28449,34367,Hund,"Yorkshire Terrier",1067119200.000000,Niereninsuffizienz,"Hohenzollerndamm 137",14199,Berlin,52.48435730,13.29455820
+123603,44690,55192,Katze,"EKH (Europäisch Kurzhaar)",1067209200.000000,"Niereninsuffizienz, Leukocytose, HKMP","Uhlandstr. 133",10717,Berlin,52.49255220,13.32366860
+124606,44888,55454,Hund,"Golden Retriever-Mischling",1068332400.000000,"VD:, Hypoadrenokortizismus
+ Niereninsuffizienz","Am Horstenstein 24C",12277,Berlin,52.41541630,13.37235670
+125351,44999,55577,Katze,"EKH (Europäisch Kurzhaar)",1069110000.000000,Niereninsuffizienz,"Dorotheenstr. 17",12557,Berlin,52.44046950,13.58340520
+125802,45130,55753,Hund,"West Highland White Terrier",1069628400.000000,"chron. Niereninsuffizienz","Uhlandstr. 106a",10717,Berlin,52.48800160,13.32292770
+126104,44361,55821,Katze,"EKH (Europäisch Kurzhaar)",1069887600.000000,"Diarrhoe, wässrig ohne Blut chronisch
+ , Niereninsuffizienz, chronisch","Weißenseer Weg 92",10369,Berlin,52.53437040,13.47401400
+126523,19240,22617,Katze,Perser-Mischling,1070319600.000000,"Chronische Niereninsuffizienz","Am Rehwechsel 24",14165,Berlin,52.41239390,13.26769020
+127331,45371,56074,Katze,Perserkatze,1071183600.000000,"HKMP, Hypertension, Ablatio retinae, Retinablutungen, Niereninsuffizienz","Weimarischestr. 4",10715,Berlin,52.48072950,13.32405320
+127697,45385,56092,Katze,"EKH (Europäisch Kurzhaar)",1071615600.000000,"Azotämie, Niereninsuffizienz, chronisch","Betckestr. 4d",13595,Berlin,52.52039080,13.19881100
+127855,45489,56239,Hund,"Golden Retriever",1071702000.000000,"Niereninsuffizienz, akut","Hochkönigweg 1",12349,Berlin,52.43873700,13.41199640
+128333,28016,33793,Katze,OKH,1072134000.000000,"akute Niereninsuffizienz, Erbrechen","Friedenfelser Str. 13",12279,Berlin,52.41371570,13.36103170
+128763,22496,26642,Katze,"EKH (Europäisch Kurzhaar)",1072738800.000000,"Niereninsuffizienz, chron. NA","Alt-Buckow 32",12349,Berlin,52.42275940,13.43008970
+129785,45922,56805,Katze,"EKH (Europäisch Kurzhaar)",1073862000.000000,Niereninsuffizienz,"Tauernallee 64",12107,Berlin,52.42728550,13.40435730
+130257,45995,56911,Katze,"EKH (Europäisch Kurzhaar)",1074294000.000000,Niereninsuffizienz,"Goethestr. 67",10625,Berlin,52.50876360,13.31538725
+130269,45986,56895,Katze,Perserkatze,1074380400.000000,"Gastritis, , Niereninsuffizienz","Kirchnerpfad 18",13627,Berlin,52.53670320,13.29987700
+130389,45989,56900,Kaninchen,Zwergkaninchen,1074466800.000000,Niereninsuffizienz,"Zwickauer Damm 12",12353,Berlin,52.42301540,13.48304740
+131085,43563,53720,Katze,"EKH (Europäisch Kurzhaar)",1075244400.000000,"Niereninsuffizienz, chronisch","Kirchstr. 17",10557,Berlin,52.52309000,13.34908460
+131767,25273,30156,Hund,"Deutscher Schäferhund",1075935600.000000,"Niereninsuffizienz, Lungentumor (operierter Mammatumor), unter Th wegen Perianalfisteln seit 3 Jahren","Promenadenstr. 17a",12207,Berlin,52.43133170,13.32587886
+132392,46362,57388,Katze,"EKH (Europäisch Kurzhaar)",1076626800.000000,"chron. Niereninsuffizienz, Euthanasie","Mariendorfer Damm 418",12107,Berlin,52.41757490,13.39909770
+132416,46408,57457,Hund,Dalmatiner,1076626800.000000,Niereninsuffizienz,"Hochkalterweg 2",12107,Berlin,52.43013030,13.40394830
+132693,26138,31294,Hund,Rehpinscher-Mischling,1076972400.000000,"Niereninsuffizienz, chronisch
+ Anämie","Wublitzweg 46",14089,Berlin,52.44996450,13.11239980
+132945,46510,57583,Katze,"Türkisch Angora",1077145200.000000,Niereninsuffizienz,"Am Fenn",12347,Berlin,52.44660220,13.33987610
+133509,46624,57721,Katze,BKH,1077750000.000000,"Niereninsuffizienz, chronisch","Schloßstr. 115",12163,Berlin,52.46212110,13.32599650
+133911,46708,57830,Hund,"West Highland White Terrier",1078182000.000000,"Niereninsuffizienz, chronisch","Weise Str. 22",12049,Berlin,52.47603340,13.42415870
+134617,11663,12861,Katze,Perserkatze,1078873200.000000,"Niereninsuffizienz, chronisch","Seestr. 44a",13353,Berlin,52.55005830,13.35207590
+135874,47096,58342,Kaninchen,Widder,1080169200.000000,"E. cuniculi, Niereninsuffizienz, Apathie, Inappetenz","Wilseder Str. 5",12169,Berlin,52.45235880,13.34191770
+136555,26095,31238,Katze,"EKH (Europäisch Kurzhaar)",1080856800.000000,"chronische Niereninsuffizienz","Richardstr. 99",12043,Berlin,52.47707050,13.44137590
+137012,1335,1071,Katze,"EKH (Europäisch Kurzhaar)",1081288800.000000,Niereninsuffizienz,"Heerstr. 416",13593,Berlin,52.51991290,13.16542540
+137392,47228,58527,Hund,Rottweiler,1081807200.000000,"Niereninsuffizienz, chronisch","Potsdamer Chaussee 49",14129,Berlin,52.42371155,13.20204190
+137555,41763,58653,Katze,"EKH (Europäisch Kurzhaar)",1081893600.000000,Niereninsuffizienz,"Holzhauser Str. 14",13509,Berlin,52.57707820,13.29682750
+137838,47509,58911,Katze,"EKH (Europäisch Kurzhaar)",1082066400.000000,"FLUTD, , Niereninsuffizienz, akute","Friedbergstr. 25",14057,Berlin,52.50382695,13.29458590
+137954,34355,41712,Kaninchen,Zwergkaninchen,1082325600.000000,"E. cuniculi positiv, chronische Niereninsuffizienz","Stockumer Str. 14a",13507,Berlin,52.57596040,13.28989560
+137989,11066,39474,Katze,"EKH (Europäisch Kurzhaar)",1082325600.000000,"chron. Niereninsuffizienz","Guntersblumer Weg 24",14129,Berlin,52.43220440,13.21443183
+200352,11066,77351,Katze,"EKH (Europäisch Kurzhaar)",1141945200.000000,Niereninsuffizienz,"Guntersblumer Weg 24",14129,Berlin,52.43220440,13.21443183
+138730,47721,59195,Katze,"EKH (Europäisch Kurzhaar)",1082930400.000000,"Dyspnoe, Niereninsuffizienz","Charles-H-King-Str. 12",14163,Berlin,52.42974830,13.22730948
+139457,47877,59412,Hund,"Rhodesian Ridgeback",1083621600.000000,"Hyperkalzämie, Niereninsuffizienz","Seefelder Straße 23",13053,Berlin,52.55021140,13.50370160
+139621,47907,59452,Katze,"EKH (Europäisch Kurzhaar)",1083708000.000000,"Anfall, Niereninsuffizienz","Emser Str. 53",12051,Berlin,52.46807020,13.42632500
+139900,47970,59547,Kaninchen,Zwergkaninchen,1083967200.000000,"Niereninsuffizienz, Nieren- und Blasenstein",Uhlandstr.140,10719,Berlin,52.49450860,13.32415520
+140106,2325,59613,Kaninchen,Zwergkaninchen,1084226400.000000,"Verdacht auf Metraverännderung, verkalkte Niereninsuffizienz li, Gewichtsverlust","Halemweg 2",13627,Berlin,52.53544950,13.28717760
+140303,47655,59101,Katze,"EKH (Europäisch Kurzhaar)",1084399200.000000,"Niereninsuffizienz, chronisch","Münchner Str. 25",12309,Berlin,52.55303580,13.31502310
+141034,32408,39177,Katze,Ragdoll,1085090400.000000,"chron. Niereninsuffizienz","Munchowstraße 5",14129,Berlin,52.42949950,13.18931040
+141114,48261,59903,Katze,"EKH (Europäisch Kurzhaar)",1085263200.000000,"Niereninsuffizienz, Anämie","Borstellstr. 16",12167,Berlin,52.44880050,13.34708489
+143060,48742,60547,Schildkröte,Vierzehenlandschildkröte,1087164000.000000,"Niereninsuffizienz, renaler Hyperparathyreoidismus","Heckerdamm 197/35",13627,Berlin,52.53962040,13.29529070
+143255,4487,4380,Katze,"EKH (Europäisch Kurzhaar)",1087250400.000000,"Niereninsuffizienz, chronisch","Sonnenallee 14",12047,Berlin,52.48721690,13.42654050
+143385,28805,34785,Hund,Mischling(klein),1087336800.000000,"Niereninsuffizienz, akut; Zwischenrechnung","Potsdamer Chaussee 36 d",14129,Berlin,52.42951010,13.22415390
+144169,48430,60126,Hund,"West Highland White Terrier",1088114400.000000,"Niereninsuffizienz, chronisch","Martin-Wagner-Ring 13a",12359,Berlin,52.44159820,13.44046520
+144197,48930,60798,Katze,"EKH (Europäisch Kurzhaar)",1088114400.000000,"Niereninsuffizienz, chronisch","Lindenallee 52",14050,Berlin,52.51837360,13.27605500
+144400,49069,60980,Katze,"EKH (Europäisch Kurzhaar)",1088373600.000000,Niereninsuffizienz,"Kreuznacher Str. 65",14197,Berlin,52.46688030,13.31207830
+145475,49162,61090,Hund,"Deutscher Schäferhund-Mischling",1089237600.000000,"Niereninsuffizienz, chronisch; dilatierter Ureter","Rochstr. 9",10907,Berlin,52.52197600,13.40476230
+146912,49694,61768,Katze,"Maine Coon",1090533600.000000,"chronische Niereninsuffizienz","Chamissostr. 20",13587,Berlin,52.56010560,13.21140810
+147181,49849,61880,Meerschwein,Glatthaarmeerschwein,1090879200.000000,"Inappetenz, Apathie, Niereninsuffizienz","Holtheimer Weg 36",12207,Berlin,52.40991020,13.30210160
+147553,49990,62065,Katze,Perser-Mischling,1091311200.000000,Niereninsuffizienz,"Bramwaldweg 6",13589,Berlin,52.55187310,13.18033870
+148513,50153,62269,Katze,"Maine Coon-Mischling",1092002400.000000,"Niereninsuffizienz, chronisch","Minheimer Str. 53",13465,Berlin,52.63868660,13.28535330
+148671,34481,41874,Katze,Siamkatze-Mischling,1092175200.000000,"Niereninsuffizienz, chronisch
+ Arthrose im Ellenbogengelenk rechts","Tränkeweg 29",12351,Berlin,52.44034000,13.46307220
+149043,50351,62511,Kaninchen,Zwergkaninchen,1092434400.000000,"Inappetenz, Apathie, seröser Nasenausfluß
+ Niereninsuffizienz, E. cuniculi positiv
+ Lymphosarkom im Herzmuskel","Hoeppnerstr. 80",12101,Berlin,52.47294350,13.37397308
+149168,45518,56275,Katze,"EKH (Europäisch Kurzhaar)",1092607200.000000,"Gastritis, , Niereninsuffizienz, chronisch","Pegnitzring 35",14089,Berlin,52.45939930,13.13023780
+150380,20475,24123,Hund,Rauhaarteckel-Mischling,1093471200.000000,Niereninsuffizienz,"Kissingenplatz 13",13189,Berlin,52.56759910,13.42051030
+150440,42086,51780,Hund,"Berner Sennenhund",1093557600.000000,"Niereninsuffizienz, chronisch","Ilsensteinweg 26",14129,Berlin,52.43335615,13.22214626
+150559,50701,62969,Hund,"Cocker Spaniel-Mischling",1093730400.000000,"Niereninsuffizienz, HG IV/VI",Herbartstr.16,14057,Berlin,52.50620780,13.28520410
+150858,50757,63046,Kaninchen,Zwergkaninchen,1093989600.000000,"Niereninsuffizienz, E. cuniculi","Kantstr. 97",10627,Berlin,52.50642560,13.30087033
+151734,37259,45443,Katze,"EKH (Europäisch Kurzhaar)",1094767200.000000,"Niereninsuffizienz, chronisch
+ Endstadium","Senheimer Str. 11",13465,Berlin,52.63614210,13.29176730
+151780,23332,27687,Hund,Zw.-Pudel,1094767200.000000,"Lebertumor, Niereninsuffizienz","Michelstädter Weg 65 A",13587,Berlin,52.56209170,13.20689360
+154309,22780,64056,Kaninchen,Zwergkaninchen,1097359200.000000,"hypovolämischer Schock
+ E.cuniculi positiv, Niereninsuffizienz, Bezoarverdacht","Schrockstr. 26",14165,Berlin,52.42735305,13.25539541
+155038,21330,25164,Katze,"EKH (Europäisch Kurzhaar)",1098136800.000000,"Niereninsuffizienz, chronisch","Habelschwerdter Allee 12",14195,Berlin,52.44703920,13.29160872
+155261,46255,57261,Hund,"Golden Retriever-Mischling",1098309600.000000,Niereninsuffizienz,"Neidenburger Allee 4",14055,Berlin,52.50573420,13.25886370
+155763,51856,64502,Katze,"Türkisch Angora",1098741600.000000,"Niereninsuffizienz, chronisch, neurologische Störungen","Uhlandstr. 127",10717,Berlin,52.49123090,13.32345220
+156077,51881,64535,Hund,Leonberger,1099000800.000000,"Niereninsuffizienz, chronisch, nichtregenerative Anämie",Leo-Baeck-Str.42,14167,Berlin,52.42303290,13.26863575
+156567,52016,64710,Hund,"West Highland White Terrier",1099522800.000000,"Diabetes mellitus,  Niereninsuffizienz","Oberfeldstr. 208",12683,Berlin,52.51085190,13.55433330
+156700,52025,64741,Katze,BKH,1099609200.000000,"IHA ; Blutgruppe B, , Niereninsuffizienz,","Johannisberger Str. 24",14197,Berlin,52.47184680,13.31067200
+156765,52077,64806,Hund,"Mischling (klein)",1099782000.000000,"Diabetes mellitus, Ketoazidose, Niereninsuffizienz","Pankstr. 26",13357,Berlin,52.54791290,13.37483910
+157192,52150,64909,Hund,"Mischling (groß)",1100127600.000000,"chronische Niereninsuffizienz","Sprungschanzenweg 44 c",14169,Berlin,52.45411550,13.25454770
+157821,14307,16308,Kaninchen,Widder,1100732400.000000,Niereninsuffizienz,"Schottmüllerstr. 66",14167,Berlin,52.42676455,13.27927540
+158472,52411,65288,katze,"EKH (Europäisch Kurzhaar)",1101337200.000000,"Zystitis, , Niereninsuffizienz, chronisch, Inkontinenz","Alsenstr. 11",12163,Berlin,52.46292220,13.33037360
+159767,3024,64809,Katze,Somali,1102633200.000000,"Anämie, Niereninsuffizienz, chronisch","Marienfelder Allee 179",12279,Berlin,52.41063740,13.36090218
+160603,41709,65820,Katze,"EKH (Europäisch Kurzhaar)",1103497200.000000,"Azotämie, Niereninsuffizienz, chronisch","Suevenstr. 23",12524,Berlin,52.41209940,13.55322840
+160926,52882,65955,Hund,"Deutscher Schäferhund-Mischling",1103756400.000000,"Niereninsuffizienz, chronisch
+ Endstadium","Turmstraße 2",10559,Berlin,52.52690490,13.35446820
+161098,52954,66045,Kaninchen,Widder,1104102000.000000,"bds. verkalkte Nierenbecken, Niereninsuffizienz, E. cuniculi","Arnulfstr. 93",12105,Berlin,52.45546100,13.36899776
+161178,52968,66061,Kaninchen,Zwergkaninchen,1104102000.000000,"Leber und Niereninsuffizienz, Leukozytose","Schustehrusstr. 20",10585,Berlin,52.51724020,13.30167740
+161231,52983,66080,Katze,Perserkatze,1104188400.000000,"chronische Niereninsuffizienz, Nierenversagen","Berliner Str. 5",14169,Berlin,52.61758150,13.39422360
+162040,52872,65939,Katze,"EKH (Europäisch Kurzhaar)",1105052400.000000,"Niereninsuffizienz, chronisch","Windhalmweg 29",13403,Berlin,52.58319710,13.32100170
+162321,28739,34712,Hund,"Akita Inu",1105398000.000000,"immunbedingte Anämie und Thrombozytopenie
+ , Niereninsuffizienz","Am Hohen Feld 120",13125,Berlin,52.61295660,13.49522710
+162494,53067,66186,Katze,"EKH (Europäisch Kurzhaar)",1105570800.000000,"Thrombus unter Therapie, Chronische Niereninsuffizienz","Hagenauerstr. 5",10435,Berlin,52.53944250,13.41649010
+164513,46035,61433,Kaninchen,Löwenkopfkaninchen,1107471600.000000,"Niereninsuffizienz, Kaninchenschnupfen","Buggestr. 14",12163,Berlin,52.46428610,13.30927530
+165321,6771,6880,Katze,"EKH (Europäisch Kurzhaar)",1108422000.000000,"chron Niereninsuffizienz
+ nicht regenerarative Anämie
+ v.a. Schrumpfnieren","Teltower Damm 26",14169,Berlin,52.43226750,13.25877550
+169138,54252,67844,Katze,"EKH (Europäisch Kurzhaar)",1112306400.000000,Niereninsuffizienz,"Sprungschanzenweg 68 G",14169,Berlin,52.45411550,13.25454770
+170983,54597,68326,Hund,"Scottish Terrier",1114034400.000000,"Niereninsuffizienz
+ Leukozytose","Ansbacher Str. 51",10777,Berlin,52.49804820,13.34022160
+171806,18993,69067,Kaninchen,Zwergkaninchen,1114984800.000000,"Niereninsuffizienz, Anämie, Inappetenz","Berlepschstr. 91",14165,Berlin,52.42482490,13.24177360
+172506,52425,65306,Katze,"EKH (Europäisch Kurzhaar)",1115589600.000000,"Chronische Niereninsuffizienz","Lauterstr. 23",12199,Berlin,52.47442080,13.33531080
+177191,56291,70506,Hund,Rauhaarteckel,1119823200.000000,"Niereninsuffizienz
+ Pankreatitis","Küsterstr. 24",13599,Berlin,52.54566570,13.24383570
+177509,50281,62427,Katze,"EKH (Europäisch Kurzhaar)",1119996000.000000,"hochgradiger Schock
+ Diabetische Ketoazidose
+ Niereninsuffizienz","Jänickestr. 3",14167,Berlin,52.43292000,13.27324065
+177988,36237,44160,Meerschwein,Glatthaarmeerschwein,1120428000.000000,"Niereninsuffizienz mit Apathie, Kachexie","Halskestr. 42",12167,Berlin,52.44818140,13.34382280
+179874,25458,32723,Katze,"EKH (Europäisch Kurzhaar)",1121983200.000000,"Niereninsuffizienz, Splenomegalie, hypoechoische Herde in der Niere, Anämie, Eosinophilie","Milowstr. 1",14195,Berlin,52.46653560,13.30343990
+180683,57309,71864,Katze,"EKH (Europäisch Kurzhaar)",1122674400.000000,Niereninsuffizienz,"Beerenstr. 29",14163,Berlin,52.43697515,13.24024633
+181198,50841,63167,Hund,Pudel,1123106400.000000,"Anämie, chron. Niereninsuffizienz, DEA 1.1. pos","Stubenrauchstr. 36",12161,Berlin,52.47624870,13.32439260
+190804,37410,45632,Kaninchen,Zwergkaninchen,1131663600.000000,"E. cuniculi, Niereninsuffizienz","Schopfheimer Str.4",14165,Berlin,52.42500615,13.24296303
+195484,13931,15823,Katze,"EKH (Europäisch Kurzhaar)",1136502000.000000,"Niereninsuffizienz, Gewichtsverlust, Anämie, Nieren verändert, hochgradige Arteriosklerose","Singdrosselsteig 4/96",13629,Berlin,52.55067430,13.27113350
+195959,637,28515,Katze,"EKH (Europäisch Kurzhaar)",1136934000.000000,Niereninsuffizienz,"Kladower Damm 286 A",14089,Berlin,52.45741030,13.14951710
+197830,54631,68363,Vogel,Kongo-Graupapagei,1138921200.000000,"Erbrechen, Inappetenz, Va. Niereninsuffizienz","Aschaffenburger Str. 42",12039,Berlin,52.38989995,13.42467518
+203788,61864,77960,Hund,Rauhaarteckel-Mischling,1145570400.000000,"Diabetes mellitus, Niereninsuffizienz, Mammatumore mit Sekretion (Diff-D: Lactatio falsa), P4-PRoblem?, Uceration/Masse sublingual","Pichelsdorfer Str. 125",13595,Berlin,52.52608510,13.19642150
+205768,62563,78887,Hund,"Mischling (10-20kg)",1147298400.000000,"chron. Niereninsuffizienz
+ Leishmaniose (?)","Jänickestraße 96",14167,Berlin,52.42242390,13.27177409
+206884,61690,77715,Hund,"Cairn Terrier",1148335200.000000,"Niereninsuffizienz, Anämie, Hepatomegalie","Baseler Str. 130",12205,Berlin,52.42896620,13.29441263
+217604,65515,82668,Hund,Mischling(klein),1157752800.000000,Niereninsuffizienz,"Sommerstr. 34 A",13409,Berlin,52.57290590,13.37685080
+220444,61316,77207,Hund,"Cairn Terrier-Mischling",1160344800.000000,"Addison unter Therapie, Niereninsuffizienz (2. Phase akute Azotämie), ITP","Griegstr. 10a",14193,Berlin,52.48067070,13.26812480
+220748,66235,83564,Katze,"EKH (Europäisch Kurzhaar)",1160517600.000000,"chronische Niereninsuffizienz","Emdenzeile 1",13585,Berlin,52.54946750,13.19995160
+220845,2930,56778,Katze,"EKH (Europäisch Kurzhaar)",1160604000.000000,Niereninsuffizienz,"Seebadstr. 20",14089,Berlin,52.61746140,13.32650260
+222254,30413,36694,Katze,"EKH (Europäisch Kurzhaar)",1161813600.000000,Niereninsuffizienz,"Kemmannweg 9",13583,Berlin,52.53681410,13.19426380
+223891,36064,43955,Katze,"EKH (Europäisch Kurzhaar)",1163372400.000000,Niereninsuffizienz,"Babelsberger Str. 5",10315,Berlin,52.48668880,13.33496880
+224678,67068,84615,Hund,Kh.-Teckel,1163977200.000000,"Niereninsuffizienz, hypophysärer Cushing möglich","Mussehlstr. 16",12101,Berlin,52.48249430,13.37981340
+226257,67359,84998,Katze,Perserkatze,1165359600.000000,"FIV
+ Niereninsuffizienz
+ Diabetes mellitus
+ Katzenschnupfen
+ Leukopenie
+ Schock","Maulbeerallee 4",13593,Berlin,52.52317410,13.17266960
+226620,67416,85074,Vogel,"Großer Alexandersittich",1165791600.000000,"Humerusfraktur li, Va Niereninsuffizienz","Sansibarstr. 22",13351,Berlin,52.55235110,13.33983780
+227458,33695,85280,Kaninchen,Zwergkaninchen,1166482800.000000,Niereninsuffizienz,Zabel-Krüger-Damm,13469,Berlin,52.61067800,13.33455350
+227774,34012,41278,Schildkröte,Vierzehenlandschildkröte,1166482800.000000,Niereninsuffizienz,"Rheinstr. 22",12161,Berlin,52.46841610,13.33166780
+227778,2351,2165,Hund,Beagle,1166742000.000000,"Kontrolle Hypertonie, Niereninsuffizienz, Hepatopathie","Prierosser Str. 73a",12355,Berlin,52.41867620,13.49988110
+228142,67755,85502,Katze,"EKH (Europäisch Kurzhaar)",1167174000.000000,Niereninsuffizienz,"Forster Str. 52",10999,Berlin,52.49550210,13.43393954
+229123,59034,74092,Kaninchen,Zwergkaninchen,1168210800.000000,Niereninsuffizienz,"Am Vierling 8",14163,Berlin,52.44573515,13.24104260
+231506,68395,86347,Kaninchen,Zwergkaninchen,1170284400.000000,"Nierensteine, Harnblasensteine, Niereninsuffizienz, Kachexie, E. cuniculi positiv","Schillerstraße 15",10625,Berlin,52.51093430,13.31606860
+232067,67918,85729,Katze,"EKH (Europäisch Kurzhaar)",1170802800.000000,"Chronische Niereninsuffizienz
+ Hypertension","Kulmbacher Str. 3",10777,Berlin,52.49649070,13.33635440
+232525,68682,86734,Kaninchen,Widder,1171234800.000000,"Niereninsuffizienz, Blasengries, Nierensteine, Adipositas","Motzstr. 85",10779,Berlin,52.49363440,13.33547380
+232611,68684,86736,Kaninchen,Widder,1171234800.000000,"Niereninsuffizienz, verkalkte Nieren, Kachexie","Zoppoterstr. 1",14199,Berlin,52.47297580,13.29901990
+235216,61951,78069,Hund,"Shar Pei",1173394800.000000,"Niereninsuffizienz (Amyloidose?)","Mehrower Allee 89",12687,Berlin,52.55590490,13.57277890
+247289,67398,85051,Hund,Schnauzer-Mischling,1182981600.000000,"Mammatumor, Niereninsuffizienz","Ceciliengärten 30",12159,Berlin,52.47223850,13.34199640
+250873,70492,89181,Hund,R'Schnauzer,1185746400.000000,"Niereninsuffizienz, Hämatochezie, Vomitus seit 4 Wo rezid.","Obentrautstr. 71",10963,Berlin,52.49713130,13.38056200
+252494,39144,47860,Katze,"EKH (Europäisch Kurzhaar)",1186956000.000000,"Diabetiische Ketoacidose, Niereninsuffizienz","Fercher Str. 3",14165,Berlin,52.42130080,13.23448660
+253297,58721,73701,Hund,"Yorkshire Terrier",1187560800.000000,Niereninsuffizienz,"Briesestr. 36",12053,Berlin,52.47810510,13.43311770
+254002,73558,93105,Meerschwein,Langhaarmeerschwein,1188165600.000000,"Verdacht auf Niereninsuffizienz, Hyper-Magnesämie, Hyperkalzämie","Königstr. 24",14163,Berlin,52.43251760,13.24528413
+254549,73674,93258,Katze,"EKH (Europäisch Kurzhaar)",1188511200.000000,"Niereninsuffizienz, Hepatopathie","Zimmermannstr. 11",12163,Berlin,52.46025385,13.32096099
+268786,76484,96879,Kaninchen,Zwergkaninchen,1200178800.000000,"Niereninsuffizienz, verkalkte Aorta, Nierenverkalkung","Invalidenstr. 134",10115,Berlin,52.53155530,13.39075954
+269910,76372,96724,Hund,"Yorkshire Terrier",1201129200.000000,"Kontrolle Niereninsuffizienz","Niebuhrstraße 49",10629,Berlin,52.50517860,13.30815220
+269960,61848,77942,Hund,"Deutscher Schäferhund",1201215600.000000,"Hyperkalzämie, Niereninsuffizienz","Mellener Str. 50",12307,Berlin,52.38450850,13.40494493
+271889,75592,95734,Katze,"EKH (Europäisch Kurzhaar)",1202770800.000000,Niereninsuffizienz,"Sterndamm 60",12487,Berlin,52.44812050,13.50624000
+273934,47854,59380,Hund,"Golden Retriever",1204498800.000000,"Niereninsuffizienz, Pruritis","Cunostr. 14",14199,Berlin,52.47744280,13.29576840
+280269,47579,59255,Kaninchen,Zwergkaninchen,1209679200.000000,Niereninsuffizienz,"Altvaterstr. 17",14129,Berlin,52.43663555,13.20482416
+280922,78534,99649,Hund,Rauhaarteckel,1210197600.000000,"Niereninsuffizienz, Herzinsuffizinenz, Paraparese","Preußenallee 7",14052,Berlin,52.50955450,13.25778750
+281452,70420,100037,Schildkröte,"Maurische Landschildkröte",1210629600.000000,Niereninsuffizienz,"Bernadottestr. 88 b",14195,Berlin,52.46563670,13.29127860
+282277,48115,59726,Katze,"EKH (Europäisch Kurzhaar)",1211234400.000000,Niereninsuffizienz,"Pasewaldtstr. 3",14169,Berlin,52.43689475,13.25867014
+287783,80377,101968,Hund,"Golden Retriever",1215208800.000000,"Leberversagen nach Niereninsuffizienz","Von-Luck-Straße 54",14129,Berlin,52.42833220,13.20739683
+287835,80398,101993,Vogel,Amsel,1215208800.000000,"Leberversagen nach Niereninsuffizienz","Kölner Damm 56",12353,Berlin,52.42481700,13.45162270
+292783,81573,103500,Katze,"EKH (Europäisch Kurzhaar)",1219010400.000000,"Akute Niereninsuffizienz, Hepatische Lipidose, Trauma","Glauberstraße 13",12209,Berlin,52.41725580,13.32806755
+295531,81742,103719,Hund,Pudel,1221170400.000000,"Kontrolle Niereninsuffizienz","Baselerstr. 110",12205,Berlin,52.43116205,13.29456099
+302501,667,458,Katze,Perserkatze,1226617200.000000,"Akute Niereninsuffizienz, Magenulkus, Mammatumor, V.a. Lungenmetastase","Uetzer Steig 5",14089,Berlin,52.47469690,13.17863880
+303158,83035,105391,Katze,"EKH (Europäisch Kurzhaar)",1227135600.000000,Niereninsuffizienz,"Horstweg 9",14059,Berlin,52.51241450,13.29308390
+304092,63614,80244,Hund,"Cairn Terrier-Mischling",1228258800.000000,"Analbeutelabszeß, Niereninsuffizienz","Bayerische Str. 35",10707,Berlin,52.49882770,13.31474730
+307078,44347,54742,Hund,Hovawart-Mischling,1230505200.000000,Niereninsuffizienz,"Retzowstr. 50",12249,Berlin,52.42592970,13.34284332
+310399,84995,107891,Katze,Perserkatze,1233356400.000000,Niereninsuffizienz,"Preußenallee 42",14052,Berlin,52.51600840,13.26006380
+310452,85014,107923,Katze,Birma(heilige),1233529200.000000,"Umfangsvermehrungen Hals, Hypertension, Niereninsuffizienz","Leichhardt Str. 33",14195,Berlin,52.44549475,13.27392417
+311833,85256,108247,Katze,"EKH (Europäisch Kurzhaar)",1234566000.000000,Niereninsuffizienz,"Markgrafenstr. 31",12105,Berlin,52.45086230,13.38002450
+312635,85391,108438,Katze,"EKH (Europäisch Kurzhaar)",1235343600.000000,"Obstruktive FLUTD und Niereninsuffizienz","Kaiserin Augusta Allee 30",10553,Berlin,52.52593690,13.31639060
+315558,85920,109162,Katze,"EKH (Europäisch Kurzhaar)",1237503600.000000,"V.a. chronische Niereninsuffizienz und Hyperthyreose","Hektorstr. 2",10711,Berlin,52.49900880,13.29785400
+316956,80545,109362,Katze,"EKH (Europäisch Kurzhaar)",1238709600.000000,"Chron. Niereninsuffizienz","Baumgartensteg 4",13597,Berlin,52.52900400,13.20891270
+323391,67647,85370,Hund,"Mischling (10-20kg)",1243548000.000000,"Niereninsuffizienz, DD: M. Addison","Dillenburger Str. 58i",14199,Berlin,52.47127550,13.30528430
+324919,68021,85857,Hund,Zw.-Pudel,1244584800.000000,Niereninsuffizienz,"Götzstr. 23",12099,Berlin,52.46478280,13.39152101
+331426,12051,83970,Hund,"Scottish Terrier",1248991200.000000,Niereninsuffizienz,"Taylorstr. 9 a",14195,Berlin,52.45667880,13.27002330
+332579,88596,112529,Frettchen,Iltisfrettchen,1249855200.000000,"Niereninsuffizienz, Anämie, Krämpfe, Seitenlage, Hypothermie","Hugo-Heimann-Str. 15",12353,Berlin,52.42383320,13.45837420
+332880,47389,113933,Kaninchen,Zwergkaninchen,1249941600.000000,"Abszedierter Mammakoplex, akute Niereninsuffizienz","Waitzstr. 25",10629,Berlin,52.50282885,13.30596643
+332967,62193,78401,Katze,Siamkatze,1250028000.000000,"Asthma, Pankreatitis, Hyerptonie, Niereninsuffizienz, Koprostase, Uveitis","Pretschener Weg 15",12527,Berlin,52.38919020,13.63735430
+334659,26122,106205,Katze,"EKH (Europäisch Kurzhaar)",1251064800.000000,"Kontrolle Niereninsuffizienz","Wendenschloßstr. 425",12557,Berlin,52.41839560,13.58920360
+334943,38660,56717,Katze,"EKH (Europäisch Kurzhaar)",1251237600.000000,"Netzhautablösung aufgrund eines zu hohen Blutdrucks, Verdacht auf eine chronische Niereninsuffizienz","Elisabethstr. 1",13585,Berlin,52.54607710,13.20099190
+336619,90441,114876,Katze,"EKH (Europäisch Kurzhaar)",1252360800.000000,"Hepatitis, Pankreatitis, Niereninsuffizienz, Ketoacidose","Brentanostr. 48",12163,Berlin,52.46243650,13.30832680
+337083,90525,114980,Katze,"EKH (Europäisch Kurzhaar)",1252792800.000000,Niereninsuffizienz,"Frobenstr. 3",13585,Berlin,52.54756120,13.19536150
+337583,90621,115111,Hund,"Berner Sennenhund",1253138400.000000,Niereninsuffizienz,"Briesener Weg 121",12623,Berlin,52.52283680,13.61575090
+3848,10539,11501,Katze,Kartäuser,919292400.000000,"chronische Niereninsuffizienz","Bayrischer Platz 3",10779,Berlin,NULL,NULL
+5495,11402,12554,Katze,"EKH (Europäisch Kurzhaar)",921970800.000000,Niereninsuffizienz,"Am Mooskissen 24",14532,Berlin,NULL,NULL
+13604,14689,16787,Katze,Perserkatze,932940000.000000,Niereninsuffizienz,"Goldhähnchen Weg 41",12359,Berlin,NULL,NULL
+38806,23064,27348,Katze,Kartäuser,964648800.000000,"chron. Niereninsuffizienz",NULL,14057,Berlin,NULL,NULL
+50222,26358,31575,Hund,Mittelschnauzer,980031600.000000,Niereninsuffizienz,"Heidläufer Weg 63",12353,Berlin,NULL,NULL
+59422,28872,34865,Hund,Cairnterrier-Mischling,992469600.000000,Niereninsuffizienz,Rudeloffweg26,14195,Berlin,NULL,NULL
+65015,19583,23028,Katze,Siamkatze,999122400.000000,"chronische Niereninsuffizienz","Leibnitzstr. 25",10625,Berlin,NULL,NULL
+71231,32317,39066,Katze,"EKH (Europäisch Kurzhaar)",1007074800.000000,"chronische Niereninsuffizienz","Ueckermünderdtraße 6",10439,Berlin,NULL,NULL
+72694,32707,39563,Katze,"EKH (Europäisch Kurzhaar)",1008975600.000000,Niereninsuffizienz,"Caverstr. 25",10587,Berlin,NULL,NULL
+74605,28874,34867,Katze,"EKH (Europäisch Kurzhaar)",1011826800.000000,Niereninsuffizienz,"Lopper Weg 8",13503,Berlin,NULL,NULL
+75425,33254,40270,Katze,"EKH (Europäisch Kurzhaar)",1012950000.000000,"Aszites, Niereninsuffizienz","Hauptstr. 3",13127,Berlin,NULL,NULL
+77401,33788,40987,Katze,"EKH (Europäisch Kurzhaar)",1015455600.000000,"Niereninsuffizienz, chronisch, Urämie","Leydenalle 72",12167,Berlin,NULL,NULL
+80358,34491,41886,Hund,"Yorkshire Terrier",1019512800.000000,"Niereninsuffizienz, chronisch","Germesheimer Platz 7",13583,Berlin,NULL,NULL
+81353,34771,42252,Katze,"EKH (Europäisch Kurzhaar)",1020722400.000000,"Niereninsuffizienz, chronisch","Stokumer Str. 2",13507,Berlin,NULL,NULL
+85364,35875,43709,Hund,Cairnterrier-Mischling,1025301600.000000,"Niereninsuffizienz, Leptospirose","Belepschstr. 149",14165,Berlin,NULL,NULL
+87098,36318,44256,Hund,Boxer,1027029600.000000,"Niereninsuffizienz, chronisch","Von der Gablenzstr. 30",13403,Berlin,NULL,NULL
+91185,37316,45510,Katze,"EKH (Europäisch Kurzhaar)",1031522400.000000,Niereninsuffizienz,"An der Parforceheide 62",14480,Berlin,NULL,NULL
+93278,37896,46247,Hund,"Golden Retriever-Mischling",1033941600.000000,"Niereninsuffizienz, , Diarrhoe, wässrig mit Blut, DIC","Dorfstr. 37",13597,Berlin,NULL,NULL
+98967,39083,47776,Katze,Perser-Mischling,1040943600.000000,Niereninsuffizienz,"Groß-Zietenerstr. 86",12309,Berlin,NULL,NULL
+99292,39043,47720,Hund,Windhund-Mischling,1041375600.000000,Niereninsuffizienz,"Kauerstr. 5",10587,Berlin,NULL,NULL
+102205,39812,48732,Hund,Münsterländer,1044658800.000000,"chronische Niereninsuffizienz","Nerdohlerweg 49",13507,Berlin,NULL,NULL
+111427,41820,51440,Katze,Perser-Mischling,1055109600.000000,Niereninsuffizienz,"Birkenbuschstr. 32c",12167,Berlin,NULL,NULL
+121648,31874,54591,Katze,"EKH (Europäisch Kurzhaar)",1065045600.000000,"Niereninsuffizienz, Herzpatient","Lessingstr. 8",10555,Berlin,NULL,NULL
+124613,44892,55459,Katze,"EKH (Europäisch Kurzhaar)",1068332400.000000,"Niereninsuffizienz, chronisch","Potsdamer Chussee 19",14163,Berlin,NULL,NULL
+131327,31874,38513,Katze,"EKH (Europäisch Kurzhaar)",1075417200.000000,"Va. chron. Niereninsuffizienz.","Lessingstr. 8",10555,Berlin,NULL,NULL
+152182,10736,27276,Katze,"EKH (Europäisch Kurzhaar)",1095199200.000000,Niereninsuffizienz,"Goethestr. 30",14163,Berlin,NULL,NULL
+156600,52027,64743,Meerschwein,Rosettenmeerschwein,1099522800.000000,"Dyspnoe, Apathie, Pyometra, Pneumonie, Niereninsuffizienz","Str. 339  Nr. 24",13591,Berlin,NULL,NULL
+159500,52625,65579,Hund,"Bordeaux Dogge",1102374000.000000,Niereninsuffizienz,"Str. d. Pariser Kommune 13",10243,Berlin,NULL,NULL
+162646,21212,66502,Katze,"EKH (Europäisch Kurzhaar)",1105743600.000000,"akute Niereninsuffizienz",Wilsnacherstr.59,10559,Berlin,NULL,NULL
+168873,54422,68084,Kaninchen,Zwergkaninchen,1112133600.000000,"E. cuniculi, Niereninsuffizienz, Zystitis","Rodelberg 52",14532,Berlin,NULL,NULL
+180441,57244,71783,Hund,Labrador-Mischling,1122501600.000000,"akute Niereninsuffizienz","Wildgangssteig 7a",13503,Berlin,NULL,NULL
+219508,65950,83215,Katze,"EKH (Europäisch Kurzhaar)",1159480800.000000,"Niereninsuffizienz, Hypertonie, Netzhautablösung+Blutung","Muchandelweg 15",14052,Berlin,NULL,NULL
+228217,67777,85531,Katze,BKH,1167260400.000000,Niereninsuffizienz,"Krampritzer Weg 2 a",14089,Berlin,NULL,NULL
+280230,55739,99670,Schildkröte,Vierzehenlandschildkröte,1209679200.000000,"Niereninsuffizienz, renale Osteodystrophie","Am Wassergraben 9",13587,Berlin,NULL,NULL
+309714,84850,107705,Katze,Siamkatze,1232751600.000000,"Chron. Niereninsuffizienz","Giesendorfer Str. 12",12207,Berlin,NULL,NULL
+323647,85043,107962,Katze,"EKH (Europäisch Kurzhaar)",1243807200.000000,"Akute Niereninsuffizienz","Glaubostr. 27a",12209,Berlin,NULL,NULL

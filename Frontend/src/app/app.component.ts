@@ -1,9 +1,6 @@
-import { Component } from '@angular/core';
-import { tileLayer, latLng, Map, LatLng } from 'leaflet';
-import 'leaflet';
-import 'leaflet.heat'
-declare let L;
-import { addressPoints } from '../assets/realworld'
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import {DTSCService} from './dtsc.service';
 
 
 
@@ -12,28 +9,43 @@ import { addressPoints } from '../assets/realworld'
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
+ 
   title = 'Frontend';
-  options = {
-    layers: [
-      L.tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        maxZoom: 18,
-        attribution: ""
-      })
-    ],
-    zoom: 5,
-    center: L.latLng(-37.87, 175.475)
-  };
+  clusterElements:any=[]
+  clusters:any=[]
+  render=false;
+  diseases = [
+    {value: 'niereninsuffizienz', viewValue: 'Niereninsuffizienz'},
+  ];
 
-  onMapReady(map: Map) {
-    // Do stuff with map
-    var addresses=[]
-    addresses.push( latLng(46.879966, -121.726909))
-    addresses.push( latLng(46.879966, -122.726909))
-    addresses.push( latLng(46.879966, -120.726909))
-    let newAddressPoints = addressPoints.map(function (p) { return [p[0], p[1]]; });
-    const heat = L.heatLayer(newAddressPoints).addTo(map);
+  cities = [
+    {value: 'berlin', viewValue: 'Berlin'},
+  ];
 
-  } 
+
+
+  constructor(private DTSCService: DTSCService,private route: ActivatedRoute,public router: Router){
+    
+  }
+
+  ngOnInit(): void {
+    this.submitQuery();
+  }
+
+  submitQuery(){
+    this.render=false
+    this.DTSCService.clusterQuery("niereninsuffizienz","berlin")
+    .subscribe(dataSource => {
+      this.clusters=dataSource
+      this.clusterElements=this.clusters[0].elements
+      this.render=true
+    });
+  }
+
+  displayCluster(clusterNumber){
+    console.log(clusterNumber)
+    this.clusterElements=this.clusters[clusterNumber-1].elements
+  }
  
 }

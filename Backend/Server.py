@@ -13,7 +13,7 @@ class MyEncoder(json.JSONEncoder):
         if isinstance(obj, np.ndarray):
             return obj.tolist()
         elif isinstance(obj, Disease):
-            return {'Date':obj.date,'PLZ':obj.PLZ,'Lat':obj.lat,'Lng':obj.lng}
+            return {'Date':obj.date,'PLZ':obj.PLZ,'Region':obj.Region,'Lat':obj.lat,'Lng':obj.lng}
         elif isinstance(obj, decimal.Decimal):
             return float(obj)
         return json.JSONEncoder.default(self, obj)
@@ -24,9 +24,9 @@ def buildLocationsTable():
     connector = DBConnector()
     connector.insertLatLangDB()
 
-@route('/api/dieases')
+@route('/api/diseases')
 def getDieasesByClusters():
-    diease_name=request.query.diease
+    diease_name=request.query.disease
     area=request.query.area
     #Query data from Database
     connector=DBConnector()
@@ -36,7 +36,7 @@ def getDieasesByClusters():
     ms:MeanShift=meanShift.findClusters(dieases_list)
     #Build json response
     response=[]
-    for i in range(ms.cluster_centers_.shape[1]):
+    for i in range(ms.cluster_centers_.shape[0]):
         idx_list=np.where(ms.labels_==i)
         cluster={}
         cluster["cluster_id"]=i

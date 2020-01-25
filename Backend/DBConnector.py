@@ -1,18 +1,26 @@
 import mysql.connector as mysql
 from geopy.geocoders import OpenMapQuest
 import time
+import pandas as pd
+import numpy as np
+
 class Disease:
-    def __init__(self,date,PLZ,lat,lng):
-        self.PLZ=PLZ
+    def __init__(self,date,PLZ,Region,lat,lng):
         self.date=date
+        self.PLZ = PLZ
+        self.Region=Region
         self.lat=lat
         self.lng = lng
+
+
+    def getDate(self):
+        return  self.date
 
     def getPLZ(self):
         return  self.PLZ
 
-    def getDate(self):
-        return  self.date
+    def getRegion(self):
+        return self.Region
 
     def getLat(self):
         return  self.lat
@@ -20,10 +28,11 @@ class Disease:
     def getLng(self):
         return  self.lng
 
+
 class DBConnector:
 
     def __init__(self):
-        self.db=db = mysql.connect(
+        self.db = mysql.connect(
         host='localhost',
         database='tier_db',
         user='root',
@@ -35,8 +44,11 @@ class DBConnector:
         cursor.execute("SELECT  * FROM tier_db.tier_view2 where tier_view2.diagnose like '%"+diease_name+"%' and ort = '"+area+"' and lat is not null group by TierNr")
         records = cursor.fetchall()
         diseases_list=[]
+        zuordnung = pd.read_csv("./Zuordnung.csv")
+        zuordnung_matrix = zuordnung.get_values().astype(int)
         for row in records:
-            disease=Disease(row[5],row[8],row[10],row[11])
+            region= np.argwhere(zuordnung_matrix == int(row[8]))[0][1] + 1
+            disease=Disease(row[5],int(row[8]),int(region),row[10],row[11])
             diseases_list.append(disease)
         return diseases_list
 
