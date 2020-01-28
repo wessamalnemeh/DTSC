@@ -47,9 +47,13 @@ class DBConnector:
         zuordnung = pd.read_csv("./Zuordnung.csv")
         zuordnung_matrix = zuordnung.get_values().astype(int)
         for row in records:
-            region= np.argwhere(zuordnung_matrix == int(row[8]))[0][1] + 1
-            disease=Disease(row[5],int(row[8]),int(region),row[10],row[11])
-            diseases_list.append(disease)
+            if len(np.argwhere(zuordnung_matrix == int(row[8]))):
+                region= np.argwhere(zuordnung_matrix == int(row[8]))[0][1] + 1
+                disease=Disease(row[5],int(row[8]),int(region),row[10],row[11])
+                diseases_list.append(disease)
+            else:
+                print(int(row[8]))
+
         return diseases_list
 
 

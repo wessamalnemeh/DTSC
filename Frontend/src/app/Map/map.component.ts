@@ -21,6 +21,9 @@ export class MapComponent implements OnInit {
   @Input()
   data:any;
 
+  map:Map
+  heatLayer:any
+
   options = {
     layers: [
       L.tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -33,7 +36,7 @@ export class MapComponent implements OnInit {
   };
 
   onMapReady(map: Map) {
- 
+    this.map=map
     var addresses=[]
     for(var i=0;i<this.data.length;i++){
       addresses.push( latLng(this.data[i].Lat, this.data[i].Lng))
@@ -42,10 +45,18 @@ export class MapComponent implements OnInit {
     //addresses.push( latLng(46.879966, -122.726909))
     //addresses.push( latLng(46.879966, -120.726909))
     //let newAddressPoints = addressPoints.map(function (p) { return [p[0], p[1]]; });
-    const heat = L.heatLayer(addresses).addTo(map);
+    this.heatLayer = L.heatLayer(addresses).addTo(map);
 
   } 
-
+  refreshMap(data){
+    this.data=data
+    this.map.removeLayer(this.heatLayer)
+    var addresses=[]
+    for(var i=0;i<this.data.length;i++){
+      addresses.push( latLng(this.data[i].Lat, this.data[i].Lng))
+    }
+    this.heatLayer= L.heatLayer(addresses).addTo(this.map);
+  }
 
 
 }

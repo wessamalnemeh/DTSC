@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import {DTSCService} from './dtsc.service';
+import { MapComponent } from './Map/map.component';
 
 
 
@@ -15,6 +16,11 @@ export class AppComponent implements OnInit{
   clusterElements:any=[]
   clusters:any=[]
   render=false;
+
+  @ViewChild('map',{static: false})
+  private mapComponent: MapComponent;
+
+  
   diseases = [
     {value: 'niereninsuffizienz', viewValue: 'Niereninsuffizienz'},
   ];
@@ -35,7 +41,7 @@ export class AppComponent implements OnInit{
 
   submitQuery(){
     this.render=false
-    this.DTSCService.clusterQuery("niereninsuffizienz","berlin")
+    this.DTSCService.clusterQuery("Schnupfen","berlin")
     .subscribe(dataSource => {
       this.clusters=dataSource
       this.clusterElements=this.clusters[0].elements
@@ -46,6 +52,7 @@ export class AppComponent implements OnInit{
   displayCluster(clusterNumber){
     console.log(clusterNumber)
     this.clusterElements=this.clusters[clusterNumber-1].elements
+    this.mapComponent.refreshMap(this.clusterElements);
   }
  
 }

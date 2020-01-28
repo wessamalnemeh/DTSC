@@ -7,30 +7,23 @@ from mpl_toolkits.mplot3d import Axes3D
 import math
 from itertools import cycle
 
+from DBConnector import DBConnector
 
 
 def main():
-    data = pd.read_csv("./Niereninsuffizienz.csv")
-    zuordnung=pd.read_csv("./Zuordnung.csv")
-    zuordnung_matrix=zuordnung.get_values().astype(int)
+    connector = DBConnector()
+    dieases_list = connector.getEventsByDiaeses("schnupfen", "Berlin")
 
-    plz_array=np.zeros((len(data.PLZ)),int)
-    for i in range(0,len(data.PLZ)):
-        if(len(np.argwhere(zuordnung_matrix==data.PLZ[i]))!=0):
-            plz_array[i]=np.argwhere(zuordnung_matrix==data.PLZ[i])[0][1]+1
-        else:
-            print(data.PLZ[i])
+    PLZ = [o.PLZ for o in dieases_list]
+    Date = [int(o.date) for o in dieases_list]
+    Region = [o.Region for o in dieases_list]
+    Lat = [o.lat for o in dieases_list]
+    Lng = [o.lng for o in dieases_list]
 
 
-    normalized_data=data.PLZ*100000
-    plz_array=plz_array*100000000
-    X=np.array([data.Datum,plz_array]).T
 
-    centers = [[1, 1], [-1, -1], [1, -1]]
-    #X, _ = make_blobs(n_samples=10000, centers=centers, cluster_std=0.6)
-
-    bandwidth = estimate_bandwidth(X, quantile=0.075, n_samples=len(X))
-
+    X = np.array([Lat, Lng, Date]).T
+    bandwidth = estimate_bandwidth(X, quantile=0.082, n_samples=len(X))
     ms = MeanShift(bandwidth=bandwidth, bin_seeding=True)
     #ms = KMeans(n_clusters=12)
     ms.fit(X)
@@ -42,17 +35,18 @@ def main():
 
     print("number of estimated clusters : %d" % n_clusters_)
 
-
-    plt.figure(1)
-    plt.clf()
+    fig = plt.figure()
+    ax = fig.add_subplot(111, projection='3d')
 
     colors = cycle('bgrcmykbgrcmykbgrcmykbgrcmyk')
     for k, col in zip(range(n_clusters_), colors):
         my_members = labels == k
         cluster_center = cluster_centers[k]
-        plt.plot(X[my_members, 0], X[my_members, 1], col + '.')
-        plt.plot(cluster_center[0], cluster_center[1], 'o', markerfacecolor=col,
-                 markeredgecolor='k', markersize=14)
+        ax.scatter(X[my_members, 0], X[my_members, 1], X[my_members, 2], c=col, marker='o')
+        #plt.plot(X[my_members, 0], X[my_members, 1], X[my_members, 2],col + , c=c, marker='o''.')
+        #ax.scatter3D(X[my_members, 0], X[my_members, 1], X[my_members, 2], c=col);
+        #ax.plot(cluster_center[0], cluster_center[1], cluster_center[2], 'o', markerfacecolor=col,
+                 #markeredgecolor='k', markersize=14)
     plt.title('Estimated number of clusters: %d' % n_clusters_)
     plt.show()
 

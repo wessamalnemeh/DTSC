@@ -365,7 +365,7 @@
     fxLayoutGap="5px"
     fxLayoutGap.xs="5px">
     <div class="contentLeft" fxFlex="50" >
-      <app-map *ngIf="render" [data]="clusterElements" ></app-map>-
+      <app-map #map *ngIf="render" [data]="clusterElements" ></app-map>-
     </div>
     <div class="contentRight" fxFlex="49"> 
       <app-chart *ngIf="render" [data]="clusters"  (valueChange)='displayCluster($event)' ></app-chart>

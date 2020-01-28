@@ -13,12 +13,16 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { MatInputModule,MatSelectModule,MatOptionModule} from "@angular/material";
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+//import { HighchartsChartModule } from 'highcharts-angular';
+
+import { HighchartsChartComponent } from 'highcharts-angular';
 
 @NgModule({
   declarations: [
     AppComponent,
     MapComponent,
-    ChartComponent
+    ChartComponent,
+    HighchartsChartComponent
   ],
   imports: [
     BrowserModule,
