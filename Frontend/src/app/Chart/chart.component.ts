@@ -50,8 +50,9 @@ export class ChartComponent implements OnInit {
    chartOptions = {      
     chart: {         
        type: 'scatter',
-       marginBottom: 100,
-       marginRight: 50,
+       marginBottom: 135,
+       marginRight: 60,
+       marginTop:-20,
        options3d: {
           enabled: true,
           alpha: 10,
@@ -75,8 +76,8 @@ export class ChartComponent implements OnInit {
        }
     },         
     title : {
-       text: '3D Scatter Plot'   
-    },
+        text: ''   
+     },
     plotOptions: {
         series: {
             turboThreshold:3000,
@@ -96,11 +97,11 @@ export class ChartComponent implements OnInit {
 
    ngOnInit(): void {
 
-
+    console.log(this.data)
     for(var i=0;i<this.data.length;i++){
         //var clusterName:string='Cluster'+(i+1)
         //this.columnNames.push(clusterName)
-        var clusterName:string='Cluster'+(i+1)
+        var clusterName:string='C'+(i+1) +" ("+this.data[i].cluster_low_time+" , "+this.data[i].cluster_high_time+")"
         var serie={name:clusterName,data:[]}
         for(var j=0;j<this.data[i].elements.length;j++){
             let arr = new Array<number>(3);
@@ -117,7 +118,7 @@ export class ChartComponent implements OnInit {
 
    }
    onSelect(category,name){
-    this.valueChange.emit(parseInt(name[7]));
+    this.valueChange.emit(parseInt(name[1]));
  
    }
 

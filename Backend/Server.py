@@ -8,6 +8,8 @@ from MeanShiftCluster import MeanShiftCluster
 from sklearn.cluster import MeanShift
 import json
 
+from datetime import datetime
+
 class MyEncoder(json.JSONEncoder):
     def default(self, obj):
         if isinstance(obj, np.ndarray):
@@ -28,12 +30,18 @@ def buildLocationsTable():
 def getDieasesByClusters():
     diease_name=request.query.disease
     area=request.query.area
-    #Query data from Database
-    connector=DBConnector()
-    dieases_list=connector.getEventsByDiaeses(diease_name,area)
-    #Build Clusters
-    meanShift=MeanShiftCluster()
-    ms:MeanShift=meanShift.findClusters(dieases_list)
+    animal=request.query.animal
+
+    try:
+        connector=DBConnector()
+        dieases_list=connector.getEventsByDiaeses(diease_name,area,animal)
+        #Build Clusters
+        meanShift=MeanShiftCluster()
+        ms:MeanShift=meanShift.findClusters(dieases_list)
+    except:
+        response={}
+        response["Error"]="Something went wrong"
+        return json.dumps(response)
     #Build json response
     response=[]
     for i in range(ms.cluster_centers_.shape[0]):
@@ -42,8 +50,8 @@ def getDieasesByClusters():
         cluster["cluster_id"]=i
         cluster["cluster_low_space"]=min(np.array(dieases_list)[idx_list], key=attrgetter('PLZ')).PLZ
         cluster["cluster_high_space"] = max(np.array(dieases_list)[idx_list], key=attrgetter('PLZ')).PLZ
-        cluster["cluster_low_time"] = min(np.array(dieases_list)[idx_list], key=attrgetter('date')).date
-        cluster["cluster_high_time"] = max(np.array(dieases_list)[idx_list], key=attrgetter('date')).date
+        cluster["cluster_low_time"] = datetime.fromtimestamp(min(np.array(dieases_list)[idx_list], key=attrgetter('date')).date).strftime("%d/%m/%Y")
+        cluster["cluster_high_time"] =datetime.fromtimestamp( max(np.array(dieases_list)[idx_list], key=attrgetter('date')).date).strftime("%d/%m/%Y")
         cluster["elements"] =np.array(dieases_list)[idx_list]
         obj= min(np.array(dieases_list)[idx_list], key=attrgetter('PLZ'))
         response.append(cluster)

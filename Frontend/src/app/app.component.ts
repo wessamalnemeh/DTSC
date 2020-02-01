@@ -16,17 +16,32 @@ export class AppComponent implements OnInit{
   clusterElements:any=[]
   clusters:any=[]
   render=false;
+  loader=false
+  selectedCity="berlin"
+  selectedDisease="husten"
+  selectedAnimal="not-specified"
 
   @ViewChild('map',{static: false})
   private mapComponent: MapComponent;
 
   
   diseases = [
+    {value: 'husten', viewValue: 'Husten'},
+    {value: 'schnupfen', viewValue: 'Schnupfen'},
+    {value: 'pruritus', viewValue: 'Pruritus'},
+    {value: 'leishmaniose', viewValue: 'Leishmaniose'},
     {value: 'niereninsuffizienz', viewValue: 'Niereninsuffizienz'},
   ];
 
   cities = [
     {value: 'berlin', viewValue: 'Berlin'},
+  ];
+
+
+  animals = [
+    {value: 'not-specified', viewValue: 'Not specified'},
+    {value: 'Katze', viewValue: 'Cat'},
+    {value: 'Hund', viewValue: 'Dog'},
   ];
 
 
@@ -36,16 +51,28 @@ export class AppComponent implements OnInit{
   }
 
   ngOnInit(): void {
-    this.submitQuery();
+    
+  }
+  search(){
+    this.render=false
+    this.loader=true
+    this.submitQuery(this.selectedDisease,this.selectedCity,this.selectedAnimal);
   }
 
-  submitQuery(){
+  submitQuery(disease,area,animal){
     this.render=false
-    this.DTSCService.clusterQuery("Schnupfen","berlin")
+    this.DTSCService.clusterQuery(disease,area,animal)
     .subscribe(dataSource => {
+    
+      if(dataSource.Error==undefined){
       this.clusters=dataSource
       this.clusterElements=this.clusters[0].elements
-      this.render=true
+      this.render=true}else{
+        alert("No result !!")
+        this.render=false
+        this.loader=false
+      }
+
     });
   }
 

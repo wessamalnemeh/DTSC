@@ -22,7 +22,11 @@ class MeanShiftCluster:
        # ms.fit(X)
 
         X = np.array([Lat,Lng, Date]).T
-        bandwidth = estimate_bandwidth(X, quantile=0.1, n_samples=len(X))
+        quantile=0.1
+        bandwidth = estimate_bandwidth(X, quantile=quantile, n_samples=len(X))
+        while bandwidth==0:
+            quantile+=0.01
+            bandwidth = estimate_bandwidth(X, quantile=quantile, n_samples=len(X))
         ms = MeanShift(bandwidth=bandwidth, bin_seeding=True)
         ms.fit(X)
         labels = ms.labels_

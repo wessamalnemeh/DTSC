@@ -11,7 +11,7 @@ import { GoogleChartsModule } from 'angular-google-charts';
 import { ChartComponent } from './Chart/chart.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
-import { MatInputModule,MatSelectModule,MatOptionModule} from "@angular/material";
+import { MatInputModule,MatSelectModule,MatOptionModule, MatButtonModule} from "@angular/material";
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 //import { HighchartsChartModule } from 'highcharts-angular';
 
@@ -34,6 +34,7 @@ import { HighchartsChartComponent } from 'highcharts-angular';
     MatInputModule,
     MatSelectModule,
     MatOptionModule,
+    MatButtonModule,
     BrowserAnimationsModule
   ],
   providers: [],

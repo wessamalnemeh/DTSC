@@ -8,3 +8,20 @@
     background: aliceblue;
     padding: 10px;
 }
+.contentLoader{
+height: 100%;
+}
+.contentLeft img, .contentRight img{
+    width: 100px;
+    display: block;
+    margin: auto;
+    width: 100px;
+    display: block;
+    /* margin: auto; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}

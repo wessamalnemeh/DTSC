@@ -19,12 +19,15 @@ export class DTSCService {
     private http: HttpClient,
     private messageService: MessageService) { }
 
-  clusterQuery (disease,area): Observable<any> {
-      return this.http.get<any>(this.querytUrl+"?disease="+disease+"&area="+area)
-        .pipe(
-          tap(_ => this.log('fetched results')),
-          catchError(this.handleError<any>('getResult', []))
-        );
+  clusterQuery (disease,area,animal): Observable<any> {
+    
+      return this.http.get<any>(this.querytUrl+"?disease="+disease+"&area="+area+"&animal="+animal)
+      .pipe(
+        tap(_ => this.log('fetched results')),
+        catchError(this.handleError<any>('getResult', []))
+      );
+    
+     
   }
   
 

@@ -39,9 +39,13 @@ class DBConnector:
         password='password'
         )
 
-    def getEventsByDiaeses(self,diease_name,area):
+    def getEventsByDiaeses(self,diease_name,area,animal):
         cursor =self.db.cursor()
-        cursor.execute("SELECT  * FROM tier_db.tier_view2 where tier_view2.diagnose like '%"+diease_name+"%' and ort = '"+area+"' and lat is not null group by TierNr")
+        if animal =="not-specified":
+            cursor.execute("SELECT  * FROM tier_db.tier_view2 where tier_view2.diagnose like '%"+diease_name+"%' and ort = '"+area+"' and lat is not null group by TierNr")
+        else:
+            cursor.execute(
+                "SELECT  * FROM tier_db.tier_view2 where tier_view2.diagnose like '%" + diease_name + "%' and ort = '" + area + "' and TierArt='"+animal+"' and lat is not null group by TierNr")
         records = cursor.fetchall()
         diseases_list=[]
         zuordnung = pd.read_csv("./Zuordnung.csv")
