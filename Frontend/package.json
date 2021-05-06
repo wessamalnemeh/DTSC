@@ -24,7 +24,7 @@
     "@angular/router": "~8.2.11",
     "@asymmetrik/ngx-leaflet": "^6.0.1",
     "angular-google-charts": "^0.1.6",
-    "highcharts": "^8.0.0",
+    "highcharts": "^9.0.0",
     "highcharts-angular": "^2.4.0",
     "leaflet": "^1.6.0",
     "leaflet.heat": "^0.2.0",
